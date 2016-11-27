@@ -27,4 +27,4 @@ highlighter: pygments
 # two ways to comment, only choose one, and use your own short name
 disqus_shortname: shuai zhang
 
-baseurl: https://cheungdaven.github.io/
+baseurl: https://cheungdaven.github.io
