@@ -8,9 +8,12 @@ permalink: /about/
 * content
 {:toc}
 
-## About the site
-This is a personal website of LiXizhi, created with github and jekyll. 
-Create your own website is as easy as clone or fork a [template](https://github.com/LiXizhi/lixizhi.github.io) on github, and [commit](http://jekyllrb.com/docs/posts/) to `_posts` folder. 
+## Biography
+Shuai Zhang is a Phd student at the School of Computer Science and Engineering, University of New South Wales (UNSW), as well as at Data61, CSIRO, since Oct. 2016.
+
+He received a Bachelor degree in 2014 from the School of Information Management, Nanjing University (NJU), and majored in Information Management and Information System.
+
+Currently, his scientific research focusses upon Recommendation System, Deep Learning, and Internet of Things. 
 
 ### Admin tools
 * site [configuration file](https://github.com/LiXizhi/lixizhi.github.io/blob/master/_config.yml)
@@ -41,14 +44,4 @@ local function main()
 end
 {% endhighlight %}
 
-
-## About me
-
-My primary research interest is in artificial intelligence, programming and education. See my project page for details.
-
-
-### 2005 Old Website 
-Here is my old personal website when I was in University. It was mostly on my projects and thoughts before 2005.
-
-* [Xizhi's old website before 2005](/oldsite2005/index.htm). 
 
