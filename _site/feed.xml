@@ -3,10 +3,10 @@
   <channel>
     <title>Shuai Zhang's Blog</title>
     <description>Ph.d Student in UNSW and Data61</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 27 Nov 2016 22:20:34 +1100</pubDate>
-    <lastBuildDate>Sun, 27 Nov 2016 22:20:34 +1100</lastBuildDate>
+    <link>https://cheungdaven.github.io///</link>
+    <atom:link href="https://cheungdaven.github.io///feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 27 Nov 2016 22:46:15 +1100</pubDate>
+    <lastBuildDate>Sun, 27 Nov 2016 22:46:15 +1100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -30,8 +30,8 @@ print_hi('Tom')
 
 </description>
         <pubDate>Wed, 11 Feb 2015 02:14:54 +1100</pubDate>
-        <link>/2015/02/11/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">/2015/02/11/welcome-to-jekyll/</guid>
+        <link>https://cheungdaven.github.io///2015/02/11/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">https://cheungdaven.github.io///2015/02/11/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
