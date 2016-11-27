@@ -5,7 +5,6 @@
         <a href="mailto:{{ site.email }}"><span class="glyphicon glyphicon-envelope"></span> {{ site.email }}</a>
         <span class="point"> · </span>
         {% if site.github_username %}
-          
           <a href="https://github.com/{{ site.github_username }}">
             <span class="icon">
               <svg viewBox="0 0 16 16">
@@ -15,17 +14,15 @@
             Github
             <!-- <span>{{ site.github_username }}</span> -->
           </a>
-          
           {% endif %}
           <span class="point"> · </span>
+          <span><a href="{{ site.viewsourceroot }}{{ page.path }}">View source</a></span>
+          <span class="point"> · </span>
+          <span><a class="newpost" href="javascript:;">New post</a></span>
+		  <span class="point"> · </span>
           <span><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></span>
           <span class="point"> · </span>
-          <span>{{ site.description }}</span>
-          <span class="point"> · </span>
-          <span>&copy; 2015 Gaohaoyang</span>
-          <span class="point"> · </span>
-          <span>Designed by <a href="https://github.com/Gaohaoyang">HyG</a></span>
-
+          <span>&copy; 2015 LiXizhi</span>
       </div>
     </div>
   </div>

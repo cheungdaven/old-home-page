@@ -3,35 +3,99 @@
   <channel>
     <title>Shuai Zhang's Blog</title>
     <description>Ph.d Student in UNSW and Data61</description>
-    <link>http://localhost:4000https://cheungdaven.github.io/</link>
-    <atom:link href="http://localhost:4000https://cheungdaven.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Nov 2016 10:15:37 +1100</pubDate>
-    <lastBuildDate>Mon, 28 Nov 2016 10:15:37 +1100</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 28 Nov 2016 10:30:49 +1100</pubDate>
+    <lastBuildDate>Mon, 28 Nov 2016 10:30:49 +1100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
-        <title>hello jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Empty Template</title>
+        <description>&lt;h2 id=&quot;empty-diary-template&quot;&gt;Empty diary template&lt;/h2&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Empty post template&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Dec 2015 00:00:00 +1100</pubDate>
+        <link>http://localhost:4000/2015/12/28/empty-template/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/12/28/empty-template/</guid>
+        
+        
+        <category>paracraft</category>
+        
+      </item>
+    
+      <item>
+        <title>Empty Template</title>
+        <description>&lt;h2 id=&quot;empty-npl-tutorial-template&quot;&gt;Empty npl tutorial template&lt;/h2&gt;
+
+&lt;p&gt;Empty post template&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Dec 2015 00:00:00 +1100</pubDate>
+        <link>http://localhost:4000/2015/12/28/empty-template/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/12/28/empty-template/</guid>
+        
+        
+        <category>npl</category>
+        
+      </item>
+    
+      <item>
+        <title>Empty Template</title>
+        <description>&lt;h2 id=&quot;empty-diary-template&quot;&gt;Empty diary template&lt;/h2&gt;
+
+&lt;p&gt;Empty post template&lt;/p&gt;
+</description>
+        <pubDate>Mon, 28 Dec 2015 00:00:00 +1100</pubDate>
+        <link>http://localhost:4000/2015/12/28/empty-template/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/12/28/empty-template/</guid>
+        
+        
+        <category>diary</category>
+        
+      </item>
+    
+      <item>
+        <title>useful links</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#paracraft&quot; id=&quot;markdown-toc-paracraft&quot;&gt;ParaCraft&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#npl&quot; id=&quot;markdown-toc-npl&quot;&gt;NPL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;paracraft&quot;&gt;ParaCraft&lt;/h3&gt;
+&lt;p&gt;http://www.paracraft.cn&lt;/p&gt;
+
+&lt;h3 id=&quot;npl&quot;&gt;NPL&lt;/h3&gt;
+&lt;p&gt;http://www.nplproject.com&lt;/p&gt;
+</description>
+        <pubDate>Sun, 27 Dec 2015 00:00:00 +1100</pubDate>
+        <link>http://localhost:4000/2015/12/27/useful-links/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/12/27/useful-links/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>hello jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;def print_hi(name)
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def print_hi(name)
   puts &quot;Hi, #{name}&quot;
 end
 print_hi('Tom')
 #=&amp;gt; prints 'Hi, Tom' to STDOUT.
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a^2 + b^2 = c^2&lt;/script&gt;
-
 </description>
         <pubDate>Wed, 11 Feb 2015 02:14:54 +1100</pubDate>
-        <link>http://localhost:4000https://cheungdaven.github.io/2015/02/11/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000https://cheungdaven.github.io/2015/02/11/welcome-to-jekyll/</guid>
+        <link>http://localhost:4000/2015/02/11/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/02/11/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>

@@ -2,7 +2,6 @@
 title: Shuai Zhang's Blog
 email: cheungshuai@outlook.com
 description: Ph.d Student in UNSW and Data61
-
 # > # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
 #   line in _config.yml. It will appear in your document head meta (for
@@ -11,20 +10,25 @@ description: Ph.d Student in UNSW and Data61
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username:  cheungdaven
+github_username: cheungdaven
 permalink: /:year/:month/:day/:title/
+# this is the url root of the view source link on the footer page.
+viewsourceroot: https://github.com/cheungdaven/cheungdaven.github.io/blob/master/
+# this is the url root of the create page link on the footer page.
+newsourceroot: https://github.com/cheungdaven/cheungdaven.github.io/new/master
+#########################################
+# for duoshuo.com commenting system, uncomment following line if you do not want to include duoshuo.com. 
+#duoshuo_shortname: lixizhi
+#duoshuo_url: "http://lixizhi.github.io"
+# disqus.com commenting system. please note that it is exclusive with duoshuo.com
+disqus_shortname: cheungdaven
+disqus_url: "http://cheungdaven.github.io"
+#########################################
 
 # Build settings
 markdown: kramdown
 
 # highlight
-# 本地用rouge, github上用pygments
-highlighter: pygments
+# highlighter: pygments
 # highlighter: rouge
 # highlighter: false
-
-# comments
-# two ways to comment, only choose one, and use your own short name
-disqus_shortname: shuai zhang
-
-baseurl: https://cheungdaven.github.io
