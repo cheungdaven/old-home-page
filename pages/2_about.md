@@ -42,6 +42,6 @@ Click view source at the bottom of the page
 local function main()
 	print("hello world everyone")
 end
-{% endhighlight %}
+{% endhighlight %} 
 
 
