@@ -15,12 +15,17 @@ He received a Bachelor degree in 2014 from the School of Information Management,
 
 Currently, his scientific research focusses upon Recommendation System, Deep Learning, and Internet of Things. 
 
-### Admin tools
+## Contact
+* homepage[Homepage](http://www.cse.unsw.edu.au/~z5122282/)
+* E-mail[E-mail](shuai.zhang@tudent.unsw.edu.au)
+* homepage[Homepage](http://www.cse.unsw.edu.au/~z5122282/)
+
+## Admin tools
 * site [configuration file](https://github.com/cheungdaven/cheungdaven.github.io/blob/master/_config.yml)
 * Jekyll + [shuaizhang.disqus.com](http://shuaizhang.disqus.com/admin/)
 * markdown reference: [kramdown](http://kramdown.gettalong.org/quickref.html)
 
-### About comments
+## About comments
 Add a variable called `comments` to the [YAML front matter](http://jekyllrb.com/docs/frontmatter/) and set its value to true. A sample might look like:
 
     ---
@@ -29,7 +34,7 @@ Add a variable called `comments` to the [YAML front matter](http://jekyllrb.com/
     # other options
     ---
 
-### Sample markdowns
+## Sample markdowns
 Click view source at the bottom of the page
 
 * Embedding code
