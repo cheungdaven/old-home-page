@@ -16,9 +16,8 @@ He received a Bachelor degree in 2014 from the School of Information Management,
 Currently, his scientific research focusses upon Recommendation System, Deep Learning, and Internet of Things. 
 
 ## Contact
-* homepage[Homepage](http://www.cse.unsw.edu.au/~z5122282/)
-* E-mail[E-mail](shuai.zhang@tudent.unsw.edu.au)
-* homepage[Homepage](http://www.cse.unsw.edu.au/~z5122282/)
+* [Homepage](http://www.cse.unsw.edu.au/~z5122282/)
+* [E-mail](shuai.zhang@tudent.unsw.edu.au)
 
 ## Admin tools
 * site [configuration file](https://github.com/cheungdaven/cheungdaven.github.io/blob/master/_config.yml)
