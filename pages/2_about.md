@@ -17,7 +17,7 @@ Currently, his scientific research focusses upon Recommendation System, Deep Lea
 
 ## Contact
 * [Homepage](http://www.cse.unsw.edu.au/~z5122282/)
-* [E-mail](shuai.zhang@tudent.unsw.edu.au)
+* shuai.zhang@tudent.unsw.edu.au
 
 ## Admin tools
 * site [configuration file](https://github.com/cheungdaven/cheungdaven.github.io/blob/master/_config.yml)
