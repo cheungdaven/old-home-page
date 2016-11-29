@@ -3,6 +3,7 @@ layout: post
 comments: true
 categories: Tensorflow
 ---
+
 * content
 {:toc}
 
@@ -32,4 +33,3 @@ MNIST的每张图片有28×28个像素，相对真实的图片数据这个已经
 
  计算公式为：
 \\(y=softmax(Wx+b)\\)
-\\(y=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
