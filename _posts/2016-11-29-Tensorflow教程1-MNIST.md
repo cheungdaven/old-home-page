@@ -28,4 +28,4 @@ MNIST的每张图片有28×28个像素，相对真实的图片数据这个已经
 ![3](https://www.tensorflow.org/versions/r0.12/images/softmax-regression-vectorequation.png)
 
  计算公式为：
- \(y=softmax(Wx+b\)
+ \(y=softmax{Wx+b}\)
