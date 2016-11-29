@@ -6,6 +6,7 @@ categories: Tensorflow
 
 
 ## Tensorflow教程-1-MNIST
+
 ### MNIST数据描述
 
 MNIST数据是一个非常经典的机器学习的数据集，它是一个图片数据集，每张有一个手写的阿拉伯数字从0到9，该数据集地址为[MNIST](http://yann.lecun.com/exdb/mnist/), 在Python当中，我们可以使用代码来导入数据，代码如下：
@@ -18,4 +19,4 @@ MNIST数据有三个部分，训练数据（55000条 mnist.train）, 测试数�
 MNIST的每张图片有28×28个像素，相对真实的图片数据这个已经很简化了，看图片示例：
 ![1](https://www.tensorflow.org/versions/r0.12/images/MNIST-Matrix.png)
 
-### MNIST数据描述
+### 222
