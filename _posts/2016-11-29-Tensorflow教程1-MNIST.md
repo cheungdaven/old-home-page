@@ -25,7 +25,7 @@ MNIST的每张图片有28×28个像素，相对真实的图片数据这个已经
 > mnist.train.images 类型为tensor数据维度为[55000,28*28]; mnist.train.labels的维度为[55000,10]，这里的10意思：假如这个数字代表9，则为[0，0，0，0，0，0，0，0，0，1]
 
 ### Softmax回归
-如果不了解softmax，可以先回顾一下sigmoid，sigmoid用在分类结果只有2个的情况下，softmax用在分类结果有很多种的情况下，详细刹参见[softmax](http://ufldl.stanford.edu/wiki/index.php/Softmax%E5%9B%9E%E5%BD%92),下图给出了整个神经网络的结构：
+如果不了解softmax，可以先回顾一下sigmoid，sigmoid用在分类结果只有2个的情况下，softmax用在分类结果有很多种的情况下，详细参见[softmax](http://ufldl.stanford.edu/wiki/index.php/Softmax%E5%9B%9E%E5%BD%92),下图给出了整个神经网络的结构：
 ![2](https://www.tensorflow.org/versions/r0.12/images/softmax-regression-scalargraph.png)
 > 其中W代表权重，b代表bias,softmax对计算出来的结果再进行一次处理，将其映射到0到9不同的标签上面去
 
