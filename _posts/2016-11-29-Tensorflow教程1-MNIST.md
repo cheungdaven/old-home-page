@@ -6,7 +6,8 @@ categories: Tensorflow
 
 
 ## Tensorflow教程-1-MNIST
-sdsff
+
+该教程大部分的材料来自tensorflow官网[tensorflow](https://www.tensorflow.org).
 
 ### MNIST数据描述
 
