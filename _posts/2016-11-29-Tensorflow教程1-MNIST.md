@@ -6,6 +6,7 @@ categories: Tensorflow
 
 
 ## Tensorflow教程-1-MNIST
+sdsff
 
 ### MNIST数据描述
 
@@ -20,4 +21,6 @@ MNIST的每张图片有28×28个像素，相对真实的图片数据这个已经
 ![1](https://www.tensorflow.org/versions/r0.12/images/MNIST-Matrix.png)
 
 ### 222
+
+
  
