@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-categories: learning materials
+categories: (learning materials)
 ---
 * content
 {:toc}
