@@ -47,4 +47,4 @@ categories: DeepLearning
 ### 14.2.2 Denoising Autoencoders
 <p>这里我们不再添加\(\Omega\)作为惩罚，我们通过重构损失函数得到另外一种Autoencoder，传统的情况下，我们是最小化如下函数</p>
 <p>$$L(x,g(f(x)))$$  </p>
-<p>其中L为损失函数，而\(L^2\)则代表norm，这个损失函数鼓励\(g, f\)为反函数，即输入和输出能够完全的解码。与似乎这里就有了denoising autoencoder，这里的木变函数编程为：</p>
+<p>其中L为损失函数，而\(L^2\)则代表norm，这个损失函数鼓励\(g, f\)为反函数，即输入和输出能够完全的解码。与似乎这里就有了denoising autoencoder，这里的损失函数变为：</p>
