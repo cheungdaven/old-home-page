@@ -8,8 +8,3 @@ comments: true
 * content
 {:toc}
 
-### ParaCraft
-http://www.paracraft.cn
-
-### NPL
-http://www.nplproject.com
