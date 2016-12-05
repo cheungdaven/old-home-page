@@ -10,6 +10,7 @@ categories: DeepLearning
 ## Autoencoders 
 
 <p> Autoencoder也是一种神经网络，它的目的是将input“复制”到output，从内部结构来看，它有一个隐含层\(h\)用来表示input的压缩编码。autoencoder由两个部分组成：一个编码函数 \(h=f(x)\) 以及一个用来解码的解码函数 \(r=g(h)\). 如果autoencoder能够完全的解码，即对所有的\(x\)，都有 \(g(f(x))=x\), 这样autoencoder是没有什么特殊的作用的。相反，我们并不需要完全的解码能力，大多数情况下，只允许他们完成近似的拷贝。 因为这个模型需要考虑哪些input是需要拷贝，只从input中拷贝有用的数据。    </p>
+  ![1](https://zsjzig-sn3301.files.1drv.com/y3pr987XnnSfH_mmRqFfyrSqFFJQ8ylcyztUB6D9d_CghhLW_2CRBowGKZlvYn_KuzbRqmB1oNpSPIXt_AJSsdPzMNOVrGeGz444xgXCoYeByS9h945wF04aYZzCeBscfLaMhtY9qRsdCy0FEIpfLldLZlhE8_7bwd3sOcPGEANjdE/2016-12-05_214110.png?psid=1)
 <p>现在的autoencoder的设计灵感是从以前的编码和解码（将\(p_{encoder}(h|x)\)映射到\\(p_{decoder}(x|h)\)）的过程产生的。     </p>
 <p>Autoencoder的概念在1987年就已经出现在了神经网络研究当中，传统的autoencoder主要用来降维和特征学习，近年来，autoencoder和隐含变量模型的理论联系将autoencoder带入了生产模型研究的前沿，在接下来的第20章中，autoencoder可以被看成feedforward网络的一种特例，甚至用相同的方法进行训练（即minibatch梯度下降，gradients使用back-propagation计算）。但和普通的feedforward网络不同，autoencoder可以使用recirculation（比较原始输入的激活函数和输出的激活函数）来进行训练，recirculation相对back-propagation来说，更加的合理，但是很是被使用在机器学习领域。  </p>
 
@@ -33,4 +34,4 @@ $$L(x,g(f(x)))+\Omega(h)$$    
 <p>Sparse Autoencoder的主要目的是为了分类而进行特征学习。它必须能够相应数据集的统计特征，这种方法进行训练可以在复制过程中将学习特征作为一个副产品。</p>
 <p>我们可以将\(\Omega(h)\)作为一个简单的regularizer项，和其他的regularizer（如weight decay）不同的是，对于这个regularizer并没有相应的贝叶斯解释。如在5.6.1章中描述的那样，带有的weight decay和其他的正则惩罚项的训练可以看成为对参数的先验分布的正则惩罚的MAP。例如，最大化\(p(\theta|x)\),就等同于最大化\(\log p(x|\theta)+\log p(\theta)\)，其中\(\log p(\theta)\)就是参数的先验分布。而这里的惩罚函数不仅依赖输入数据，并且也不是任何形式的先验部分的定义。但是我们仍然可以将其看成是对某个函数的偏好的隐含表达方法。 </p>  
   
-  ![1](https://zsjzig-sn3301.files.1drv.com/y3pr987XnnSfH_mmRqFfyrSqFFJQ8ylcyztUB6D9d_CghhLW_2CRBowGKZlvYn_KuzbRqmB1oNpSPIXt_AJSsdPzMNOVrGeGz444xgXCoYeByS9h945wF04aYZzCeBscfLaMhtY9qRsdCy0FEIpfLldLZlhE8_7bwd3sOcPGEANjdE/2016-12-05_214110.png?psid=1)
+
