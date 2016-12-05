@@ -16,32 +16,20 @@ Autoencoder的概念在1987年就已经出现在了神经网络研究当中，�
 ### Undercomplete Autoencoders
 将输入复制到输出，听起来似乎什么用的都没有，但是通常情况下我们并不关注输入。相反，我们关注的是隐含层\\(h\\)，我们希望隐含层能够包含很多有用的属性。 
 如果\\(h\\)曾的维数小于\\(x\\)，autoencoder就可以用来进行特征提取，我们将这种情况称为undercomplete。在进行undercomplete表征学习时迫使autoencoder去捕捉训练数据中的最精华的信息。  
-
-
 简单地，学习过程可以表示为最小化如下的损失函数：  
 $$L(x,g(f(x)))$$  
 其中L为损失函数，用来衡量\\(x\\)和\\(g(f(x))\\)的差异，类似于平方差。  
-
-
 当decoder是线性函数的时候，L就是平方差,autoencoder和PCA一样得跨越相同的子空间。当\\(f\\)和\\(g\\)都是非线性函数的时候，Autoencoder有比PCA更加强大的非线性生成能力。不幸的是，如果encoderh和decoder太过强大，以至于都不需要autoencoder进行特征提取就能恢复输入数据，这样的autoencoder就是失败的了。例如，编码成是一维的，但是编码函数可以将\\(x^{(i)}\\)表示为\\(i\\)。
 
 ### Regularized Autoencoders
 如果编码层和输入层的维度一样或者大于输入层的维度，这个就成了overcomplete。这种情况下，即使是线性的编码函数和解码函数都可以完成从输入复制到输出的过程，并且没办法学习到任何有用的信息。  
-
-
 理想情况下，任何架构的autoencoder都可以成功的训练，前提是按照数据分布的复杂程度选择合适的编码层维度以及编码和解码函数。Rgularized Autoencoder就提供了这样的能力，它不通过选择小维度的编码层和使用浅层的编码和解码过程来实现这样的功能，而是使用一个损失函数式的模型具备除了从输入拷贝数据到输出的能力之外的一些属性。这些属性包括，特征的稀疏性，小的导数，以及对噪音和数据丢的的的鲁棒性。一个Regularized的autoencoder可以是非线性的或者是overcomplete的，但却能从训练数据中学习到有用的信息。  
-
-
 除了这里讨论的regularized autoencoder之外，任何的含有隐含变量和推理过程的生成模型都能够被看作为一种autoencoder。例如variational autoencoder以及generative stochastic networks，这些模型因为本身就是为了最大化训练数序的概率分布，所以他能够很好的学习数据的特征。  
 
 #### Sparse Autoencoders
   稀疏autoencoder在训练的过程当中在\\(h\\)层中含有一个稀疏惩罚函数\\(\Omega(h)\\)，于是误差函数的形式如下  
 $$L(x,g(f(x)))+\Omega(h)$$    
   其\\(g(h)\\)是解码输出函数，\\(h=f(x)\\)为编码输出。  
-  
-  
   Sparse Autoencoder的主要目的是为了分类而进行特征学习。它必须能够相应数据集的统计特征，这种方法进行训练可以在复制过程中将学习特征作为一个副产品。
-  
-  
   我们可以将\\(\Omega(h)\\)作为一个简单的regularizer项，和其他的regularizer（如weight decay）不同的是，对于这个regularizer并没有相应的贝叶斯解释。如在5.6.1章中描述的那样，带有的weight decay和其他的正则惩罚项的训练可以看成为对参数的先验分布的正则惩罚的MAP。例如，最大化\\(p(\theta|x)\\),就等同于最大化\\(\log p(x|\theta)+\log p(\theta)\\)，其中$$\log p(\theta)$$就是参数的先验分布。而这里的惩罚函数不仅依赖输入数据，并且也不是任何形式的先验部分的定义。但是我们仍然可以将其看成是对某个函数的偏好的隐含表达方法。   
   
