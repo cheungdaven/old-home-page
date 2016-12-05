@@ -42,3 +42,5 @@ $$p_{model}(h_i) = \frac{\lambda}{2} e^-{\lambda|h_{i}|}$$
 <p>与绝对值稀疏惩罚对于，将log-prior表示成为绝对值惩罚，如下
 $$\Omega(h)=\lambda \sum_{i}|h_{i}|$$
 $$-\log p_{model}(h) = \sum_{i}(\lambda|h_{i}|-\log \frac{\lambda}{2}) = \Omega(h) + const$$
+<p> 这里的常数项取决于\(\lambda\)而不取决于\(h\), 我么将\(\lambda\)看成是超参数，并且去掉常数项，因为它并不影响参数的学习。其他的先验分布例如学生t分布也可以用来导致稀疏。从这个角度来看，这里的稀疏惩罚并不是正则项，只是模型对隐含变量的分布的结果。这个也给出了训练autoencoder的另外一层解释，这是对训练生成模型的近似。同时它也解释了为什么autoencoder的特征学习是有用的，因为他们描述了对输入的隐含变量。</p>
+
