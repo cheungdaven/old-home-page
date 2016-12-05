@@ -38,4 +38,7 @@ $$\log p_{model}(x) = \log \sum_{h} p_{model}(h,x)$$
 <p>我们可以把autoencoder看作是这个带有一个h的很高可能值的点估计的和的近似。这和稀疏编码生成模型很相似，但是这里的\(h\)代表了编码的输出而不是对h的最有可的的值的优化。从这个观点来看，选择了这个\(h\)，我们要最大化</p>
 $$\log p_{model}(h,x) = \log p_{model}(h)+\log p_{model}(x|h) $$
 <p>这个 \(\log p_{model}(h)\) 项可以是sparsity-inducing。例如，Laplace先验</p>
-$$p_{model}(h_i) = \frac{\lambda}{2} e^-\lambda|h_{i}|$$
+$$p_{model}(h_i) = \frac{\lambda}{2} e^-{\lambda|h_{i}|}$$
+<p>与绝对值稀疏惩罚对于，将log-prior表示成为绝对值惩罚，如下
+$$\Omega(h)=\lambda \sum_{i}|h_{i}|$$
+$$-\log p_{model}(h) = \sum_{i}(\lambda|h_{i}|-\log \frac{\lambda}{2}) = \Omega(h) + const$$
