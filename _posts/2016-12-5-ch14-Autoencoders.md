@@ -3,6 +3,7 @@ layout: post
 comments: true
 categories: DeepLearning
 ---
+
 * content
 {:toc}
 
@@ -16,7 +17,7 @@ categories: DeepLearning
 <p>简单地，学习过程可以表示为最小化如下的损失函数：
 $$L(x,g(f(x)))$$
 <p>其中L为损失函数，用来衡量\(x\)和\(g(f(x))\)的差异，类似于平方差。
-<p>当decoder是线性函数的时候，L就是平方差,autoencoder和PCA一样得跨越相同的子空间。当\(f\)和\(g\)都是非线性函数的时候，Autoencoder有比PCA更加强大的非线性生成能力。不幸的是，如果encoderh和decoder太过强大，以至于都不需要autoencoder进行特征提取就能恢复输入数据，这样的autoencoder就是失败的了。例如，编码成是一维的，但是编码函数可以将\(x^(i)\)表示为\(i\)。
+<p>当decoder是线性函数的时候，L就是平方差,autoencoder和PCA一样得跨越相同的子空间。当\(f\)和\(g\)都是非线性函数的时候，Autoencoder有比PCA更加强大的非线性生成能力。不幸的是，如果encoderh和decoder太过强大，以至于都不需要autoencoder进行特征提取就能恢复输入数据，这样的autoencoder就是失败的了。例如，编码成是一维的，但是编码函数可以将\(x^{(i)}\)表示为\(i\)。
 
 ### Regularized Autoencoders
 <p>如果编码层和输入层的维度一样或者大于输入层的维度，这个就成了overcomplete。这种情况下，即使是线性的编码函数和解码函数都可以完成从输入复制到输出的过程，并且没办法学习到任何有用的信息。
