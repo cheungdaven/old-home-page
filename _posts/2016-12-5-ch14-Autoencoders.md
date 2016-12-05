@@ -30,4 +30,5 @@ $$L(x,g(f(x)))$$
   稀疏autoencoder在训练的过程当中在\\(h\\)层中含有一个稀疏惩罚函数\\(\Omega(h)\\)，于是误差函数的形式如下  
 $$L(x,g(f(x)))+\Omega(h)$$    
   其\\(g(h)\\)是解码输出函数，\\(h=f(x)\\)为编码输出。  
-  Sparse Autoencoder的主要目的是为了分类而进行特征学习。它必须能够相应数据集的统计特征，这种方法进行训练可以在复制过程中将学习特征作为一个副产品。   我们可以将\\(\Omega(h)\\)作为一个简单的regularizer项，和其他的regularizer（如weight decay）不同的是，对于这个regularizer并没有相应的贝叶斯解释。如在5.6.1章中描述的那样，带有的weight decay和其他的正则惩罚项的训练可以看成为对参数的先验分布的正则惩罚的MAP。例如，最大化\\(p(\theta|x)\\),就等同于最大化\\(\log p(x|\theta)+\log p(\theta)\\),其中$$\log p(\theta)$$
+  Sparse Autoencoder的主要目的是为了分类而进行特征学习。它必须能够相应数据集的统计特征，这种方法进行训练可以在复制过程中将学习特征作为一个副产品。   我们可以将\\(\Omega(h)\\)作为一个简单的regularizer项，和其他的regularizer（如weight decay）不同的是，对于这个regularizer并没有相应的贝叶斯解释。如在5.6.1章中描述的那样，带有的weight decay和其他的正则惩罚项的训练可以看成为对参数的先验分布的正则惩罚的MAP。例如，最大化\\(p(\theta|x)\\),就等同于最大化\\(\log p(x|\theta)+\log p(\theta)\\)，其中$$\log p(\theta)$$就是参数的先验分布。而这里的惩罚函数不仅依赖输入数据，并且也不是任何形式的先验部分的定义。但是我们仍然可以将其看成是对某个函数的偏好的隐含表达方法。   
+  
