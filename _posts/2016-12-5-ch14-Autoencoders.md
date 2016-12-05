@@ -28,6 +28,8 @@ $$L(x,g(f(x)))$$
 
 #### Sparse Autoencoders
 稀疏autoencoder在训练的过程当中在\\(h\\)层中含有一个稀疏惩罚函数\\(\Omega(h)\\)，于是误差函数的形式如下  
-$$L(x,g(f(x)))+\Omega(h)$$  
+> $$L(x,g(f(x)))+\Omega(h)$$  
 其\\(g(h)\\)是解码输出函数，\\(h=f(x)\\)为编码输出。  
 Sparse Autoencoder的主要目的是为了分类而进行特征学习。
+
+
