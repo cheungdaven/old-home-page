@@ -27,9 +27,7 @@ $$L(x,g(f(x)))$$
 除了这里讨论的regularized autoencoder之外，任何的含有隐含变量和推理过程的生成模型都能够被看作为一种autoencoder。例如variational autoencoder以及generative stochastic networks，这些模型因为本身就是为了最大化训练数序的概率分布，所以他能够很好的学习数据的特征。  
 
 #### Sparse Autoencoders
-稀疏autoencoder在训练的过程当中在\\(h\\)层中含有一个稀疏惩罚函数\\(\Omega(h)\\)，于是误差函数的形式如下  
-> $$L(x,g(f(x)))+\Omega(h)$$  
-其\\(g(h)\\)是解码输出函数，\\(h=f(x)\\)为编码输出。  
-Sparse Autoencoder的主要目的是为了分类而进行特征学习。
-
-
+  稀疏autoencoder在训练的过程当中在\\(h\\)层中含有一个稀疏惩罚函数\\(\Omega(h)\\)，于是误差函数的形式如下  
+$$L(x,g(f(x)))+\Omega(h)$$    
+  其\\(g(h)\\)是解码输出函数，\\(h=f(x)\\)为编码输出。  
+  Sparse Autoencoder的主要目的是为了分类而进行特征学习。它必须能够相应数据集的统计特征，这种方法进行训练可以在复制过程中将学习特征作为一个副产品。   我们可以将\\(\Omega(h)\\)作为一个简单的regularizer项，和其他的regularizer（如weight decay）不同的是，对于这个regularizer并没有相应的贝叶斯解释。如在5.6.1章中描述的那样，带有的weight decay和其他的正则惩罚项的训练可以看成为对参数的先验分布的正则惩罚的MAP。例如，最大化\\(p(\theta|x)\\),就等同于最大化\\(\log p(x|\theta)+\log p(\theta)\\),其中$$\log p(\theta)$$
