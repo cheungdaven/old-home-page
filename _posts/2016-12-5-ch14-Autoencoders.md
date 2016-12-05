@@ -33,4 +33,4 @@ $$L(x,g(f(x)))+\Omega(h)$$    
 <p>Sparse Autoencoder的主要目的是为了分类而进行特征学习。它必须能够相应数据集的统计特征，这种方法进行训练可以在复制过程中将学习特征作为一个副产品。</p>
 <p>我们可以将\(\Omega(h)\)作为一个简单的regularizer项，和其他的regularizer（如weight decay）不同的是，对于这个regularizer并没有相应的贝叶斯解释。如在5.6.1章中描述的那样，带有的weight decay和其他的正则惩罚项的训练可以看成为对参数的先验分布的正则惩罚的MAP。例如，最大化\(p(\theta|x)\),就等同于最大化\(\log p(x|\theta)+\log p(\theta)\)，其中\(\log p(\theta)\)就是参数的先验分布。而这里的惩罚函数不仅依赖输入数据，并且也不是任何形式的先验部分的定义。但是我们仍然可以将其看成是对某个函数的偏好的隐含表达方法。 </p>  
   
-  ![1](https://onedrive.live.com/?authkey=%21AGAa4KtoLq7OM-E&cid=2855CC91C185CA33&id=2855CC91C185CA33%211006&parId=2855CC91C185CA33%21106&o=OneUp)
+  ![1](https://zsjzig-sn3301.files.1drv.com/y3pr987XnnSfH_mmRqFfyrSqFFJQ8ylcyztUB6D9d_CghhLW_2CRBowGKZlvYn_KuzbRqmB1oNpSPIXt_AJSsdPzMNOVrGeGz444xgXCoYeByS9h945wF04aYZzCeBscfLaMhtY9qRsdCy0FEIpfLldLZlhE8_7bwd3sOcPGEANjdE/2016-12-05_214110.png?psid=1)
