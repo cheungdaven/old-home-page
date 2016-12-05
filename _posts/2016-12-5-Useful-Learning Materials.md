@@ -15,6 +15,5 @@ categories: LearningMaterials
 *
 
 ## Other Materials
-*
-
+* [A Tutorial for Using Twitter Data in the Social Sciences: Data Collection, Preparation, and Analysis](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2710146)
 
