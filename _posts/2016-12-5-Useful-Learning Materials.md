@@ -8,6 +8,7 @@ categories: learning materials
 
 ## Books
 [Probabilistic Graphical Models](http://pgm.stanford.edu/)
+[Deep learning](http://www.deeplearningbook.org/)
 
 ## Papers
 
