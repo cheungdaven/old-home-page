@@ -10,7 +10,7 @@ categories: Tensorflow
 ## Tensorflow教程-1-MNIST
 
 该教程大部分的材料来自tensorflow官网[tensorflow](https://www.tensorflow.org).   
-<p>[Tensorflow安装教程](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/get_started/os_setup.md#test-the-tensorflow-installation)目前不支持windows系统</p>
+[Tensorflow安装教程](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/get_started/os_setup.md#test-the-tensorflow-installation) 目前不支持windows系统
 ### MNIST数据描述
 
 MNIST数据是一个非常经典的机器学习的数据集，它是一个图片数据集，每张有一个手写的阿拉伯数字从0到9，该数据集地址为[MNIST](http://yann.lecun.com/exdb/mnist/), 在Python当中，我们可以使用代码来导入数据，代码如下：
