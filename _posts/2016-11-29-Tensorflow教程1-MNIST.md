@@ -96,6 +96,6 @@ if __name__ == '__main__':
 
 <p>我的最后的训练结果为0.91918，每次训练都不一样，将参数换一下训练的结果也会不一样，有兴趣的可以自己调试一下！</p>
 
-* Reference
+### Reference
 1. 该教程大部分的材料来自tensorflow官网[tensorflow](https://www.tensorflow.org).   
 2. [Tensorflow安装教程](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/get_started/os_setup.md#test-the-tensorflow-installation) 目前不支持windows系统
