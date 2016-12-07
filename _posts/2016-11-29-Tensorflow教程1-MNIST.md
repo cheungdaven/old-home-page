@@ -9,9 +9,6 @@ categories: Tensorflow
 
 ## Tensorflow教程-1-MNIST
 
-该教程大部分的材料来自tensorflow官网[tensorflow](https://www.tensorflow.org).   
-[Tensorflow安装教程](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/get_started/os_setup.md#test-the-tensorflow-installation) 目前不支持windows系统
-
 ### MNIST数据描述
 
 MNIST数据是一个非常经典的机器学习的数据集，它是一个图片数据集，每张有一个手写的阿拉伯数字从0到9，该数据集地址为[MNIST](http://yann.lecun.com/exdb/mnist/), 在Python当中，我们可以使用代码来导入数据，代码如下：
@@ -98,3 +95,7 @@ if __name__ == '__main__':
 <p>tensorflow是基于c++的后台的，而每次运算的时候需要连接后台，而连接的方法就是通过session，参照网络编程的概念。另外这里的interactivesession是session的更为方便的版本，可以用于computation graph, 后面会详细解释。</p>
 
 <p>我的最后的训练结果为0.91918，每次训练都不一样，将参数换一下训练的结果也会不一样，有兴趣的可以自己调试一下！</p>
+
+* Reference
+1. 该教程大部分的材料来自tensorflow官网[tensorflow](https://www.tensorflow.org).   
+2. [Tensorflow安装教程](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/get_started/os_setup.md#test-the-tensorflow-installation) 目前不支持windows系统
