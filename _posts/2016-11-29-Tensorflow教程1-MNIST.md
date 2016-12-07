@@ -85,7 +85,7 @@ if __name__ == '__main__':
 <p>这个我们可以理解为占位符，后面的feed_dict中我们要给他具体的值，否则会报错，例如上面代码中我们有x和\(y\_\)两个placeholder，因此，需要在feed_dict中给出他们的具体值</p>
 
 * matmul     
-<p>这个代表矩阵相乘，因为tensorflow需要适应GPU的运算，所以我们不能再使用python的Numpy的适合CPU的运算方法，因为tensorflow定义了一套自己的运算</p>
+<p>这个代表矩阵相乘，因为tensorflow需要适应GPU的运算，所以我们不能再使用python的Numpy的适合CPU的运算方法，所以tensorflow定义了一套自己的运算</p>
 
 * Learning rate
 <p>代码中的0.5, learning rate就是梯度下降算法中的，每一步向下走的距离，可以参考梯度下降算法</p>
