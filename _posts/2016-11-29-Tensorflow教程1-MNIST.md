@@ -82,7 +82,7 @@ if __name__ == '__main__':
 {% endhighlight %}     
 <p>下面，我们对上面代码中存在疑问的地方进行解释</p>
 * placeholder
-<p>这个我们可以理解为占位符，后面的feed_dict中我们要给他具体的值，否则会报错，例如上面代码中我们有x和$$y\_$$ 两个placeholder，因此，需要在feed_dict中给出他们的具体值</p>
+<p>这个我们可以理解为占位符，后面的feed_dict中我们要给他具体的值，否则会报错，例如上面代码中我们有x和\(y_\)两个placeholder，因此，需要在feed_dict中给出他们的具体值</p>
 
 * matmul     
 <p>这个代表矩阵相乘，因为tensorflow需要适应GPU的运算，所以我们不能再使用python的Numpy的适合CPU的运算方法，因为tensorflow定义了一套自己的运算</p>
