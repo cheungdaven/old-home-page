@@ -9,7 +9,7 @@ permalink: /about/
 {:toc}
 
 ## Biography
-> Shuai Zhang is a Phd student at the School of Computer Science and Engineering, University of New South Wales (UNSW), as well as at Data61, CSIRO, since Oct. 2016.
+> Shuai Zhang is a Phd student at the School of Computer Science and Engineering, University of New South Wales (UNSW), as well as at Data61, CSIRO, since 2016.
 
 > He received a Bachelor degree in 2014 from the School of Information Management, Nanjing University (NJU), and majored in Information Management and Information System.
 
