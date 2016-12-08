@@ -155,7 +155,8 @@ if __name__ == '__main__':
 * <b>为什么要使用weight_variableh和bias_variable对初始值进行设定，而不默认全部使用0？</b>
 <p>参照conv2d的注释对于weight，使用高斯是为了随机产生一些数据，防止出现太多的对称矩阵</p>
 <p>参照conv2d的注释对于bias, 因为我们使用了relu函数进行计算，relu函数如下：</p>
-$$ f(x) = max{0,x} $$
+<p>$$ f(x) = max\{0,x\} $$</p>
+
 ![relu](https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Rectifier_and_softplus_functions.svg/495px-Rectifier_and_softplus_functions.svg.png)
 <p>对于小于0的数字，就变成0了，如果一个神经元输出0，意味着对下一个神经元就没有贡献了，就变成了所谓的dead neuron，初始化为0.1可以防止这个问题！</p>
 
