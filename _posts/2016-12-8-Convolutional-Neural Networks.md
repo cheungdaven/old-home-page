@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-categories: Deeplearning
+categories: DeepLearning
 ---
 ## Title
 text
