@@ -100,7 +100,17 @@ if __name__ == '__main__':
     print(sess.run(b))
     print(sess.run(W))
 {% highlight %}
-
+>
+[-0.33944559  0.33142412  0.07108528 -0.22499387  0.0318705   1.15082097
+ -0.09295515  0.5707342  -1.2930342  -0.20550564]
+[[ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ ..., 
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]]
+ 
 ### Reference
 1. 该教程大部分的材料来自tensorflow官网[tensorflow](https://www.tensorflow.org).   
 2. [Tensorflow安装教程](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/get_started/os_setup.md#test-the-tensorflow-installation) 目前不支持windows系统
