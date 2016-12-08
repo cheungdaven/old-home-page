@@ -17,7 +17,7 @@ permalink: /about/
 
 ## Contact
 * [Homepage](http://www.cse.unsw.edu.au/~z5122282/)
-* shuai.zhang@tudent.unsw.edu.au
+* shuai.zhang@student.unsw.edu.au
 
 ## Links
 * [LinaYao](http://linayao.com/){:target="_blank"}
