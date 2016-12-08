@@ -144,7 +144,8 @@ if __name__ == '__main__':
 
 <p>我的输出结果为 1 ！！！百分之百的准确率，也是没谁了，哈哈。</p>
 * <b>weight的结果什么意思？</b>
-<p>例如，[5,5,1,32]，前面三个代表了kernel矩阵的Height，width以及channel, 32这个其实有有点困惑的，参照[question](http://stackoverflow.com/questions/38201178/understanding-deep-mnist-for-experts), 其实就是创建32个kernel矩阵，分别对这张图片进行处理，由于创建矩阵的时候用的truncated_normal，这个函数从高斯分布随机的产生数字，因此得到的矩阵每次都不一样，于是乎，对一张照片使用不同的32个kernel进行convolution之后，得到了32个卷积之后的矩阵，这就解释了上面的结构图中的尺寸问题。至于为什么是32，这个是实证经验得来的</p>
+<p>例如，[5,5,1,32]，前面三个代表了kernel矩阵的Height，width以及channel, 32这个其实有有点困惑的，参照[question](http://stackoverflow.com/questions/38201178/understanding-deep-mnist-for-experts), 其实就是创建32个kernel矩阵，分别对这张图片进行处理，由于创建矩阵的时候用的truncated_normal，这个函数从高斯分布随机的产生数字，因此得到的矩阵每次都不一样，于是乎，对一张照片使用不同的32个kernel进行convolution之后，得到了32个卷积之后的矩阵，这就解释了上面的结构图中的尺寸问题。至于为什么是32，这个是实证经验得来的.</p>
+<p>[5,5,32,64],注意第二次卷积的kernel的channel是32，而不是1，所以输出的矩阵大小为14×14×64，而不是14*14*2048.</p>
 
 * <b>strides为什么是4维的？</b>
 <p>4维分别代表了[batch, height, width, channels]，大多数情况下strides = [1, stride, stride, 1]</p>
