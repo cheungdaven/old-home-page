@@ -8,7 +8,9 @@ categories: DeepLearning
 {:toc}
 
 ## 14 Autoencoders 
-<p>决定放弃更新这本书的翻译，因为今天发现北大已经出来翻译版本！参见[dlbook](https://github.com/exacity/deeplearningbook-chinese)</p>
+决定放弃更新这本书的翻译，因为今天发现北大已经出来翻译版本！参见
+[dlbook](https://github.com/exacity/deeplearningbook-chinese)
+
 <p> Autoencoder也是一种神经网络，它的目的是将input“复制”到output，从内部结构来看，它有一个隐含层\(h\)用来表示input的压缩编码。autoencoder由两个部分组成：一个编码函数 \(h=f(x)\) 以及一个用来解码的解码函数 \(r=g(h)\). 如果autoencoder能够完全的解码，即对所有的\(x\)，都有 \(g(f(x))=x\), 这样autoencoder是没有什么特殊的作用的。相反，我们并不需要完全的解码能力，大多数情况下，只允许他们完成近似的拷贝。 因为这个模型需要考虑哪些input是需要拷贝，只从input中拷贝有用的数据。    </p>
   ![1](https://zsjzig-sn3301.files.1drv.com/y3pr987XnnSfH_mmRqFfyrSqFFJQ8ylcyztUB6D9d_CghhLW_2CRBowGKZlvYn_KuzbRqmB1oNpSPIXt_AJSsdPzMNOVrGeGz444xgXCoYeByS9h945wF04aYZzCeBscfLaMhtY9qRsdCy0FEIpfLldLZlhE8_7bwd3sOcPGEANjdE/2016-12-05_214110.png?psid=1)
 <p>现在的autoencoder的设计灵感是从以前的编码和解码（将\(p_{encoder}(h|x)\)映射到\(p_{decoder}(x|h)\)）的过程产生的。     </p>
