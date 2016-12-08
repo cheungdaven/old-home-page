@@ -14,7 +14,7 @@ categories: Tensorflow
 
 
 #### Convolution
-convolution首先要定义一个kernel的矩阵，然后一步一步的对整个图片进行映射，并计算，例如，下面的图片，kernel矩阵为[[1,0,1][0,1,0],[1,0,1]]（这个在权值W中设定形状，例如第一层的[5,5,1,32]，kernel就是一个5×5×1的矩阵，后面的32表示映射出来的举证的代谢哦啊），在原始图片上一步一步（通过stride参数设定）的移动这个kernel矩阵，最后对下图的映射接:
+<p>convolution首先要定义一个kernel的矩阵，然后一步一步的对整个图片进行映射，并计算，例如，下面的图片，kernel矩阵为[[1,0,1][0,1,0],[1,0,1]]（这个在权值W中设定形状，例如第一层的[5,5,1,32]，kernel就是一个5×5×1的矩阵，后面的32表示映射出来的举证的代谢哦啊），在原始图片上一步一步（通过stride参数设定）的移动这个kernel矩阵，最后对下图的映射接:</p>
 * 原始矩阵
 ![before](https://ujwlkarn.files.wordpress.com/2016/07/screen-shot-2016-07-24-at-11-25-13-pm.png?w=127&h=115)
 * kernel矩阵
@@ -31,8 +31,7 @@ convolution首先要定义一个kernel的矩阵，然后一步一步的对整个
 <p>下面我们要实现的CNN结果如下图：</p>
 ![1](https://0sioqw-sn3301.files.1drv.com/y3pEFZqx1USHARK5kZPIdgagvFhUhT0ThBIzF3jzrHCG9gMm76I6XRgN865FAYDKQq1-Mw74fuvuYzwC-9w2g7QWHE3arombd0pJPOGD6T-gRYhn3EZM-Px65Xujc9j2C-EBhhcWcgRR0vWG9o9f4nv6KossTqjgLsySbLZ0nMCvW8/2016-12-08_142414.png?psid=1)
 <p>首先，convolution和pool一般是先后进行，这里我们总共进行了两次convolution和两次pooling</p>
->
-1. zero-padding the 28x28x1 image to 32x32x1
+> 1. zero-padding the 28x28x1 image to 32x32x1
 2. applying 5x5x32 convolution to get 28x28x32
 3. max-pooling down to 14x14x32
 4. zero-padding the 14x14x32 to 18x18x32
