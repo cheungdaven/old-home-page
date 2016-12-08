@@ -149,6 +149,7 @@ if __name__ == '__main__':
 
 * <b>strides为什么是4维的？</b>
 <p>4维分别代表了[batch, height, width, channels]，大多数情况下strides = [1, stride, stride, 1], 首先第一个1代表的是，是否跳过一些样本，比如我们是每次训练100个，如果为1的话，就是从1，2，3，...到100。 如果为2的话，就是1，3，5，...；其次，最后一个数据的意思，代表了一次跳多少个channel，但是一般图片也就几个channel，所以没必要跳了。</p>
+[question](http://stackoverflow.com/questions/34642595/tensorflow-strides-argument)
 
 * <b>conv2d的解释</b>
 <p>参照conv2d的注释</p>
