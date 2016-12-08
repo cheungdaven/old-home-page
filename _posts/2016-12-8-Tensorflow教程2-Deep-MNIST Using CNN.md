@@ -14,15 +14,31 @@ categories: Tensorflow
 
 
 #### Convolution
-
+convolution首先要定义一个kernel的矩阵，然后一步一步的对整个图片进行映射，并计算，例如，下面的图片，kernel矩阵为[[1,0,1][0,1,0],[1,0,1]]（这个在权值W中设定形状，例如第一层的[5,5,1,32]，kernel就是一个5×5×1的矩阵，后面的32表示映射出来的举证的代谢哦啊），在原始图片上一步一步（通过stride参数设定）的移动这个kernel矩阵，最后对下图的映射接:
+* 原始矩阵
+![before](https://ujwlkarn.files.wordpress.com/2016/07/screen-shot-2016-07-24-at-11-25-13-pm.png?w=127&h=115)
+* kernel矩阵
+![kernel](https://ujwlkarn.files.wordpress.com/2016/07/screen-shot-2016-07-24-at-11-25-24-pm.png?w=74&h=64)
+* after convolution
+![after](https://ujwlkarn.files.wordpress.com/2016/07/convolution_schematic.gif?w=268&h=196)
+<p>另外，源代码中，我们原始矩阵为28*28*1, 按照这种每次移动一个位置的方法，最后得到的矩阵大小应该是(28-5+1)*(28-5+1)*1的，但是源码中最后的结果却还是28×28×1，这篇问答对这个问题作了很好的解释[question](http://cs.stackexchange.com/questions/49658/convolutional-neural-network-example-in-tensorflow)</p>
+<p>从官网提供的解释来说，这里使用到的是varnila版本的convolution,也就是说，convolution之后得到的矩阵大小和以前的是一样能的。</p>
 #### Pooling
-<p>一般用到的Pooling, 叫做max pooling，也就是取矩阵中的最大值，例如下图解释说明，过滤器为2×2的矩阵，stride是2，在tensorflow中对应了tf.nn.max_pool(x, ksize=[1,2,2,1], strides=[1,2,2,1], padding='SAME')这句代码，ksize就是filter, 看第二个和第三个参数，第一个参数代表batch的数量，一般为1，第4个参数代表了channel，因为图片是有颜色channel的，一般为3个channel，因为我们这里是灰色的图片，所以这里为1。stride和ksize是一一对应的，代表在每个方向上面的步数，这里的第二个参数2代表了每次在height方向上面的移动距离，第三个参数代表在width方向上面的移动距离。最后我们取出每个映射举证中的最大值！</p>
+<p>一般用到的Pooling, 叫做max pooling，也就是取矩阵中的最大值，例如下图解释说明，过滤器为2×2的矩阵，stride是2，在tensorflow中对应了tf.nn.max_pool(x, ksize=[1,2,2,1], strides=[1,2,2,1], padding='SAME')这句代码，ksize就是filter, 看第二个和第三个参数，第一个参数代表batch的数量，一般为1，第4个参数代表了channel，因为图片是有颜色channel的，一般为3个channel，因为我们这里是灰色的图片，所以这里为1。stride和ksize是一一对应的，代表在每个方向上面的步数，这里的第二个参数2代表了每次在height方向上面的移动距离，第三个参数代表在width方向上面的移动距离。最后我们取出每个映射矩阵中的最大值！</p>
 ![pool](http://cs231n.github.io/assets/cnn/maxpool.jpeg)
 
 #### 结构
 <p>下面我们要实现的CNN结果如下图：</p>
 ![1](https://0sioqw-sn3301.files.1drv.com/y3pEFZqx1USHARK5kZPIdgagvFhUhT0ThBIzF3jzrHCG9gMm76I6XRgN865FAYDKQq1-Mw74fuvuYzwC-9w2g7QWHE3arombd0pJPOGD6T-gRYhn3EZM-Px65Xujc9j2C-EBhhcWcgRR0vWG9o9f4nv6KossTqjgLsySbLZ0nMCvW8/2016-12-08_142414.png?psid=1)
 <p>首先，convolution和pool一般是先后进行，这里我们总共进行了两次convolution和两次pooling</p>
+>
+1. zero-padding the 28x28x1 image to 32x32x1
+2. applying 5x5x32 convolution to get 28x28x32
+3. max-pooling down to 14x14x32
+4. zero-padding the 14x14x32 to 18x18x32
+5. applying 5x5x32x64 convolution to get 14x14x64
+6. max-pooling down to 7x7x64.
+
 ### 代码实现
 <p>下面看看具体的代码实现</p>
 {% highlight python %}
