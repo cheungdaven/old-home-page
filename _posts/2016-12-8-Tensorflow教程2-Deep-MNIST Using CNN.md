@@ -155,8 +155,8 @@ if __name__ == '__main__':
 <p>参照conv2d的注释</p>
 [conv2d](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/api_docs/python/functions_and_classes/shard8/tf.nn.conv2d.md)
 
-* <b>[-1,28,28,1]</b>
-> Why reshape to -1 -1 is a placeholder that says "adjust as necessary to match the size needed for the full tensor." It's a way of making the code be independent of the input batch size, so that you can change your pipeline and not have to adjust the batch size everywhere in the code
+* <b>reshape的时候的-1啥意思？[-1,28,28,1]</b>
+<p>-1 is a placeholder that says "adjust as necessary to match the size needed for the full tensor." It's a way of making the code be independent of the input batch size, so that you can change your pipeline and not have to adjust the batch size everywhere in the code，也就是说可以自适应，再修改pipelinde的时候更加的灵活</p>
 
 * <b>为什么要使用weight_variableh和bias_variable对初始值进行设定，而不默认全部使用0？</b>
 <p>对于weight，使用高斯是为了随机产生一些数据，防止出现太多的对称矩阵</p>
