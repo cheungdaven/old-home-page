@@ -21,10 +21,12 @@ categories: Tensorflow
 ![kernel](https://ujwlkarn.files.wordpress.com/2016/07/screen-shot-2016-07-24-at-11-25-24-pm.png?w=74&h=64)
 * after convolution
 ![after](https://ujwlkarn.files.wordpress.com/2016/07/convolution_schematic.gif?w=268&h=196)
+
 <p>另外，源代码中，我们原始矩阵为28*28*1, 按照这种每次移动一个位置的方法，最后得到的矩阵大小应该是(28-5+1)*(28-5+1)*1的，但是源码中最后的结果却还是28×28×1，这篇问答对这个问题作了很好的解释[question](http://cs.stackexchange.com/questions/49658/convolutional-neural-network-example-in-tensorflow)</p>
 <p>从官网提供的解释来说，这里使用到的是varnila版本的convolution,也就是说，convolution之后得到的矩阵大小和以前的是一样能的。</p>
 
 #### Pooling
+
 <p>一般用到的Pooling, 叫做max pooling，也就是取矩阵中的最大值，例如下图解释说明，过滤器为2×2的矩阵，stride是2，在tensorflow中对应了tf.nn.max_pool(x, ksize=[1,2,2,1], strides=[1,2,2,1], padding='SAME')这句代码，ksize就是filter, 看第二个和第三个参数，第一个参数代表batch的数量，一般为1，第4个参数代表了channel，因为图片是有颜色channel的，一般为3个channel，因为我们这里是灰色的图片，所以这里为1。stride和ksize是一一对应的，代表在每个方向上面的步数，这里的第二个参数2代表了每次在height方向上面的移动距离，第三个参数代表在width方向上面的移动距离。最后我们取出每个映射矩阵中的最大值！</p>
 ![pool](http://cs231n.github.io/assets/cnn/maxpool.jpeg)
 
