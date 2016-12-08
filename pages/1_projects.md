@@ -9,6 +9,8 @@ permalink: /projects/
 {:toc}
 
 # All my projects
+No projects.
+stay tuned...
 
 ## Admin tools
 * site [configuration file](https://github.com/cheungdaven/cheungdaven.github.io/blob/master/_config.yml)
