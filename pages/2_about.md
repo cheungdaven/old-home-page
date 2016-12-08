@@ -20,8 +20,8 @@ permalink: /about/
 * shuai.zhang@tudent.unsw.edu.au
 
 ## Links
-* [LinaYao](http://linayao.com/)
-* [Xiwei (Sherry) Xu](https://scholar.google.com.au/citations?user=x9IUq78AAAAJ&hl=en)
-* [Liming Zhu](http://cgi.cse.unsw.edu.au/~limingz/home/)
-* [Shiyan Ou](http://im.nju.edu.cn/eng/facstaffdetail?name=Shiyan%20OU)
+* [LinaYao](http://linayao.com/){:target="_blank"}
+* [Xiwei (Sherry) Xu](https://scholar.google.com.au/citations?user=x9IUq78AAAAJ&hl=en){:target="_blank"}
+* [Liming Zhu](http://cgi.cse.unsw.edu.au/~limingz/home/){:target="_blank"}
+* [Shiyan Ou](http://im.nju.edu.cn/eng/facstaffdetail?name=Shiyan%20OU){:target="_blank"}
 
