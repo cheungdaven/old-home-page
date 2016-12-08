@@ -93,6 +93,8 @@ if __name__ == '__main__':
 
 * InteractiveSession
 <p>tensorflow是基于c++的后台的，而每次运算的时候需要连接后台，而连接的方法就是通过session，参照网络编程的概念。另外这里的interactivesession是session的更为方便的版本，可以用于computation graph, 后面会详细解释。</p>
+* None代表什么意思
+x = tf.placeholder(tf.float32,[None, 784])， 代表可以为任何数字！
 
 <p>我的最后的训练结果为0.91918，每次训练都不一样，将参数换一下训练的结果也会不一样，有兴趣的可以自己调试一下！</p>
 <p>后面我们还可以把我的训练出来的参数打印出来：</p>
