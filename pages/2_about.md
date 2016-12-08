@@ -18,3 +18,10 @@ permalink: /about/
 ## Contact
 * [Homepage](http://www.cse.unsw.edu.au/~z5122282/)
 * shuai.zhang@tudent.unsw.edu.au
+
+## Links
+* [LinaYao](http://linayao.com/)
+* [Xiwei (Sherry) Xu](https://scholar.google.com.au/citations?user=x9IUq78AAAAJ&hl=en)
+* [Liming Zhu](http://cgi.cse.unsw.edu.au/~limingz/home/)
+* [Shiyan Ou](http://im.nju.edu.cn/eng/facstaffdetail?name=Shiyan%20OU)
+
