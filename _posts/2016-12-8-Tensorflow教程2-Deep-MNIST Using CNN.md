@@ -23,6 +23,7 @@ categories: Tensorflow
 ![after](https://ujwlkarn.files.wordpress.com/2016/07/convolution_schematic.gif?w=268&h=196)
 <p>另外，源代码中，我们原始矩阵为28*28*1, 按照这种每次移动一个位置的方法，最后得到的矩阵大小应该是(28-5+1)*(28-5+1)*1的，但是源码中最后的结果却还是28×28×1，这篇问答对这个问题作了很好的解释[question](http://cs.stackexchange.com/questions/49658/convolutional-neural-network-example-in-tensorflow)</p>
 <p>从官网提供的解释来说，这里使用到的是varnila版本的convolution,也就是说，convolution之后得到的矩阵大小和以前的是一样能的。</p>
+
 #### Pooling
 <p>一般用到的Pooling, 叫做max pooling，也就是取矩阵中的最大值，例如下图解释说明，过滤器为2×2的矩阵，stride是2，在tensorflow中对应了tf.nn.max_pool(x, ksize=[1,2,2,1], strides=[1,2,2,1], padding='SAME')这句代码，ksize就是filter, 看第二个和第三个参数，第一个参数代表batch的数量，一般为1，第4个参数代表了channel，因为图片是有颜色channel的，一般为3个channel，因为我们这里是灰色的图片，所以这里为1。stride和ksize是一一对应的，代表在每个方向上面的步数，这里的第二个参数2代表了每次在height方向上面的移动距离，第三个参数代表在width方向上面的移动距离。最后我们取出每个映射矩阵中的最大值！</p>
 ![pool](http://cs231n.github.io/assets/cnn/maxpool.jpeg)
@@ -138,9 +139,22 @@ if __name__ == '__main__':
     tf.app.run(main = main, argv=[sys.argv[0]] + unparsed)
 
 {% endhighlight %}
+
 <p>我的输出结果为 1 ！！！百分之百的准确率，也是没谁了，哈哈。</p>
+* weight的结果什么意思？
+> 例如，[5,5,1,32]，前面三个代表了kernel矩阵的Height，width以及channel, 32这个其实有有点困惑的，参照[question](http://stackoverflow.com/questions/38201178/understanding-deep-mnist-for-experts), 其实就是创建32个kernel矩阵，分别对这张图片进行处理，由于创建矩阵的时候用的truncated_normal，这个函数从高斯分布随机的产生数字，因此得到的矩阵每次都不一样，于是乎，对一张照片使用不同的32个kernel进行convolution之后，得到了32个卷积之后的矩阵，这就解释了上面的结构图中的尺寸问题。至于为什么是32，这个是实证经验得来的
+* strides为什么是4维的？
+> 4维分别代表了[batch, height, width, channels]，大多数情况下strides = [1, stride, stride, 1]
 
+* conv2d的解释
+> 参照conv2d的注释[conv2d](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/api_docs/python/functions_and_classes/shard8/tf.nn.conv2d.md)
 
+* 为什么要使用weight_variableh和bias_variable对初始值进行设定，而不默认全部使用0？
+>对于weight，使用高斯是为了随机产生一些数据，防止出现太多的对称矩阵
+>对于bias, 因为我们使用了relu函数进行计算，relu函数如下：
+$$ f(x) = max{0,x} $$
+![relu](https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Rectifier_and_softplus_functions.svg/495px-Rectifier_and_softplus_functions.svg.png)
+> 对于小于0的数字，就变成0了，如果一个神经元输出0，意味着对下一个神经元就没有贡献了，就变成了所谓的dead neuron，初始化为0.1可以防止这个问题！
 
 ### Reference  
 
