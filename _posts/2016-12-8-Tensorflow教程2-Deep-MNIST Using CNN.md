@@ -151,7 +151,9 @@ if __name__ == '__main__':
 <p>4维分别代表了[batch, height, width, channels]，大多数情况下strides = [1, stride, stride, 1]</p>
 
 * <b>conv2d的解释</b>
-<p>参照conv2d的注释[conv2d](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/api_docs/python/functions_and_classes/shard8/tf.nn.conv2d.md)</p>
+<p>参照conv2d的注释</p>
+[conv2d](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/api_docs/python/functions_and_classes/shard8/tf.nn.conv2d.md)
+
 
 * <b>为什么要使用weight_variableh和bias_variable对初始值进行设定，而不默认全部使用0？</b>
 <p>参照conv2d的注释对于weight，使用高斯是为了随机产生一些数据，防止出现太多的对称矩阵</p>
