@@ -99,7 +99,7 @@ if __name__ == '__main__':
 {% highlight python %}
     print(sess.run(b))
     print(sess.run(W))
-{% highlight %}
+{% endhighlight %}
 
 [-0.33944559  0.33142412  0.07108528 -0.22499387  0.0318705   1.15082097
  -0.09295515  0.5707342  -1.2930342  -0.20550564]
