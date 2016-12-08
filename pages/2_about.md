@@ -18,30 +18,3 @@ Currently, his scientific research focusses upon Recommendation System, Deep Lea
 ## Contact
 * [Homepage](http://www.cse.unsw.edu.au/~z5122282/)
 * shuai.zhang@tudent.unsw.edu.au
-
-## Admin tools
-* site [configuration file](https://github.com/cheungdaven/cheungdaven.github.io/blob/master/_config.yml)
-* Jekyll + [shuaizhang.disqus.com](http://shuaizhang.disqus.com/admin/)
-* markdown reference: [kramdown](http://kramdown.gettalong.org/quickref.html)
-
-## About comments
-Add a variable called `comments` to the [YAML front matter](http://jekyllrb.com/docs/frontmatter/) and set its value to true. A sample might look like:
-
-    ---
-    layout: post
-    comments: true
-    # other options
-    ---
-
-## Sample markdowns
-Click view source at the bottom of the page
-
-* Embedding code
-{% highlight lua %}
-local function main()
-	print("hello world everyone")
-end
-{% endhighlight %} 
-
-$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
-\\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
