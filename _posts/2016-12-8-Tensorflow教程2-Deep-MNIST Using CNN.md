@@ -161,7 +161,7 @@ if __name__ == '__main__':
 <p>$$ f(x) = max\{0,x\} $$</p>
 
 ![relu](https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Rectifier_and_softplus_functions.svg/495px-Rectifier_and_softplus_functions.svg.png)
-<p>对于小于0的数字，就变成0了，如果一个神经元输出0，意味着对下一个神经元就没有贡献了，就变成了所谓的dead neuron，初始化为0.1可以防止这个问题！</p>
+<p>用relu的作用就是让线性的变成非线性的，对于小于0的数字，就变成0了，如果一个神经元输出0，意味着对下一个神经元就没有贡献了，就变成了所谓的dead neuron，初始化为0.1可以防止这个问题！</p>
 
 ### Reference  
 
