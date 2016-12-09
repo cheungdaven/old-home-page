@@ -97,8 +97,8 @@ if __name__ == '__main__':
 x = tf.placeholder(tf.float32,[None, 784])， 代表可以为任何数字！
 
 * 什么是Epoch
-An epoch, in Machine Learning, is the entire processing by the learning algorithm of the entire train-set.
-The MNIST train set is composed by 55000 samples. Once the algorithm processed all those 55000 samples an epoch is passed.
+> An epoch, in Machine Learning, is the entire processing by the learning algorithm of the entire train-set.
+> The MNIST train set is composed by 55000 samples. Once the algorithm processed all those 55000 samples an epoch is passed.
 another [explaination](http://stackoverflow.com/questions/38340311/what-is-the-difference-between-steps-and-epochs)
 <p>我的最后的训练结果为0.91918，每次训练都不一样，将参数换一下训练的结果也会不一样，有兴趣的可以自己调试一下！</p>
 <p>后面我们还可以把我的训练出来的参数打印出来：</p>
