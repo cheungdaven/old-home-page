@@ -89,6 +89,10 @@ y = list(classifier.predict(new_samples, as_iterable = True))
 print('Predictions:{}'.format(str(y)))
 
 {% endhighlight %}
+
+> Accuracy: 0.966667
+> Predictions:[1, 2]
+
 ### Reference
 1. https://en.wikipedia.org/wiki/Iris_flower_data_set    
 
