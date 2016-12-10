@@ -8,6 +8,7 @@ categories: Tensorflow
 {:toc}
 
 ## Feed-forward neuron network
+> Report: tensorflow目前支持windows版本，安装过程很简单，不用再使用虚拟机了！
 <p>Feed-forward神经网络是一种非常简单的神经网络，也是最基本的神经网络，和第一篇不同的是,这里的神经网络有多层,不过实际上效果并没有比第一篇文章的好，如但是还是直接参考的代码的。这里理清楚一个概念：Feed-forward neuro network包括了Single-layer perceptron以及Multi-layer perceptron，第一篇文章是single-layer的实现，下面就是Multi-layer perceptron的实现。下面是摘自维基百科的概念：</p>
 > The feedforward neural network was the first and simplest type of artificial neural network devised. In this network, the information moves in only one direction, forward, from the input nodes, through the hidden nodes (if any) and to the output nodes. There are no cycles or loops in the network.
 [第一篇教程](http://shuaizhang.tech/2016/11/29/Tensorflow%E6%95%99%E7%A8%8B1-MNIST/)
