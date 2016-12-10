@@ -20,7 +20,7 @@ categories: DeepLearning
 ![versicolor](https://www.tensorflow.org/versions/r0.12/images/iris_three_species.jpg)
 * virginica
 ![virginica](https://www.tensorflow.org/versions/r0.12/images/iris_three_species.jpg)
-<p>从图片也看出来，</p>
+<p>从图片也看出来，三种花特征还是很明显的，实际的数据就是通过4个特征来做分类的。数据结果如下，最后一下代表品种。</p>
 
 ### Reference
 1. https://en.wikipedia.org/wiki/Iris_flower_data_set    
