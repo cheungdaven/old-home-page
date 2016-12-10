@@ -14,12 +14,11 @@ categories: DeepLearning
 
 ### Iris数据集
 <p>Iris数据集是关于三种花的，分别问Iris versicolor, Iris Virginica, Iris Setosa, 下面有三种花的图片：</p>
-* Setosa
+* Setosa 左
+* versicolor 中
+* virginica 右
 ![Setosa](https://www.tensorflow.org/versions/r0.12/images/iris_three_species.jpg)
-* versicolor
-![versicolor](https://www.tensorflow.org/versions/r0.12/images/iris_three_species.jpg)
-* virginica
-![virginica](https://www.tensorflow.org/versions/r0.12/images/iris_three_species.jpg)
+
 <p>从图片也看出来，三种花特征还是很明显的，实际的数据就是通过4个特征来做分类的。数据结果如下，最后一下代表品种。</p>
 
 ### Reference
