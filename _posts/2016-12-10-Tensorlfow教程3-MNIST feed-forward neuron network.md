@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-categories: DeepLearning
+categories: Tensorflow
 ---
 
 * content
