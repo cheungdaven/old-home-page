@@ -1,8 +1,12 @@
 ---
 layout: post
 comments: true
-categories: DeepLearning
+categories: Tensorflow
 ---
+
+* content
+{:toc}
+
 ## DNNClassifier
 <p>从前面的例子可以看出，用Tensorflow在实现深度学习的时候，我们需要实现每一层的细节，对于一些通用的功能来说，很多代码其实是可以重用的。谷歌当然知道这个问题，于是tensorflow有一个更高层次的API---tf.contrib.learn，里面有很多通用的接口。本文介绍的就是其中的DNNClassifier，这次我们使用的是Iris数据集，这个数据集也是一个非常经典的数据集，下一节会介绍这个数据集。</p>
 <p>实现步骤:</p>
