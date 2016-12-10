@@ -32,7 +32,7 @@ categories: Tensorflow
 
 #### 结构
 <p>下面我们要实现的CNN结构图如下（if you cannot see this picture, please contact me, I use onedrive as the picture storehouse, I am not sure it is available in China or not.）：</p>
-![1](https://0sioqw-sn3301.files.1drv.com/y3pEFZqx1USHARK5kZPIdgagvFhUhT0ThBIzF3jzrHCG9gMm76I6XRgN865FAYDKQq1-Mw74fuvuYzwC-9w2g7QWHE3arombd0pJPOGD6T-gRYhn3EZM-Px65Xujc9j2C-EBhhcWcgRR0vWG9o9f4nv6KossTqjgLsySbLZ0nMCvW8/2016-12-08_142414.png?psid=1)
+![1](http://img.blog.csdn.net/20161210213342253?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhhbmdzaHVhaXpheGlh/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 <p>首先，convolution和pool一般是先后进行，这里我们总共进行了两次convolution和两次pooling</p>
 > 1. zero-padding the 28x28x1 image to 32x32x1
 2. applying 5x5x32 convolution to get 28x28x32
