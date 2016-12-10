@@ -18,8 +18,14 @@ categories: DeepLearning
 * versicolor 中
 * virginica 右
 ![Setosa](https://www.tensorflow.org/versions/r0.12/images/iris_three_species.jpg)
-
 <p>从图片也看出来，三种花特征还是很明显的，实际的数据就是通过4个特征来做分类的。数据结果如下，最后一下代表品种。</p>
+| Sepal Length | Sepal Width | Petal Length | Petal Width | Species |
+|--------------|-------------|--------------|-------------|---------|
+| 5.1          | 3.5         | 1.4          | 0.2         | 0       |
+| 7.0          | 3.2         | 4.7          | 1.4         | 1       |
+<p>这里程序使用的数据集有总共150条，其中120条做样本，后面30条做测试。数据下载地址：</p>
+* [iris_training.csv](http://download.tensorflow.org/data/iris_training.csv)
+* [iris_test.csv](http://download.tensorflow.org/data/iris_test.csv)
 
 ### Reference
 1. https://en.wikipedia.org/wiki/Iris_flower_data_set    
