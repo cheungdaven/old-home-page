@@ -22,7 +22,7 @@ categories: Tensorflow
 * versicolor 中
 * virginica 右
 ![Setosa](https://www.tensorflow.org/versions/r0.12/images/iris_three_species.jpg)
-<p>从图片也看出来，三种花特征还是很明显的，实际的数据就是通过4个特征来做分类的。数据结果如下，最后一下代表品种。</p>
+<p>从图片也看出来，三种花特征还是很明显的，实际的数据就是通过4个特征来做分类的。数据结构如下，最后一列代表品种。</p>
 <table>
   <tr>
     <th>Sepal Length</th>
