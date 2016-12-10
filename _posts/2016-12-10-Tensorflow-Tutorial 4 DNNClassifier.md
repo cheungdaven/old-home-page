@@ -60,12 +60,14 @@ IRIS_TEST ="dataset/iris/iris_test.csv"
 training_set = tf.contrib.learn.datasets.base.load_csv_with_header(
     filename = IRIS_TRAINING,
     target_dtype = np.int,
-    features_dtype = np.float32
+    features_dtype = np.float32,
+    target_column = 4
 )
 test_set = tf.contrib.learn.datasets.base.load_csv_with_header(
     filename=IRIS_TEST,
     target_dtype=np.int,
-    features_dtype=np.float32)
+    features_dtype=np.float32,
+    target_column = 4)
 
 
 feature_columns = [tf.contrib.layers.real_valued_column("",dimension=4)]
