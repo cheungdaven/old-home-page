@@ -317,7 +317,7 @@ Validation data eval:
 num examples：5000 Num correct: 4546 Precision @ 1: 0.9092
 Test data eval:
 num examples：10000 Num correct: 9052 Precision @ 1: 0.9052
-<p>可以看出，这里的精确度才0.909，比第一次还差一下，同时这也说明了CNN在处理图片中的厉害之处！</p>
+<p>可以看出，这里的精确度才0.909，比第一篇文章还差一下，同时这也说明了CNN在处理图片中的厉害之处！</p>
 
 ### Reference
 1. https://www.tensorflow.org/versions/r0.12/tutorials/mnist/tf/index.html
