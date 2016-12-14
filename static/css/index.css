@@ -64,14 +64,12 @@ nav{
 }
 .post-list-header{
 	padding: 15px 30px;
-	border-bottom: 1px solid #c0c0c0;
 	font-size: 30px;
 	font-weight: bold;
 }
 .post-list-item{
 	display: block;
 	padding:8px 30px 10px 30px; 
-	border-bottom:1px solid #ddd;
 
 	transition:0.4s ease; 
 	-webkit-transition:0.4s ease;
