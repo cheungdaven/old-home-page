@@ -60,7 +60,7 @@ nav{
 }
 .post-area{
 	
-	background-color:#FAFAFA;
+	background-color:#E5E5E5;
 }
 .post-list-header{
 	padding: 15px 30px;
@@ -103,11 +103,6 @@ nav{
 	display: block;
 	padding:8px 15px; 
 	border-bottom:1px solid #ddd; 
-
-	transition:0.4s ease;
-	-webkit-transition:0.4s ease;
-	-moz-transition:0.4s ease;
-	-o-transition:0.4s ease;
 }
 .categories-list-item:last-of-type{
 	border-bottom:none; 
@@ -124,10 +119,6 @@ nav{
 	padding: 0 7px 1px 7px;
 	border-radius: 9px;
 	float: right;
-	transition:0.4s ease;
-	-webkit-transition:0.4s ease;
-	-moz-transition:0.4s ease;
-	-o-transition:0.4s ease;
 }
 .categories-list-item:hover .my-badge{
 	-webkit-transform:rotate(360deg) scale(1.2);
