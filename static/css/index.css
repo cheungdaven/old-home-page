@@ -46,10 +46,6 @@ table td{
 
 /* navbar */
 nav{
-	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-	-o-box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-	box-shadow: 0 2px 4px rgba(0,0,0,0.5);
 
 	border-radius: 0;
 }
@@ -65,10 +61,6 @@ nav{
 .post-area{
 	
 	background-color:#FAFAFA;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
-	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
-	-o-box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
-	box-shadow: 0 1px 2px rgba(0,0,0,0.4),0 0 30px rgba(10,10,0,0.1) inset;
 }
 .post-list-header{
 	padding: 15px 30px;
