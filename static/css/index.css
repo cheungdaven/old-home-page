@@ -70,7 +70,7 @@ nav{
 .post-list-item{
 	display: block;
 	padding:8px 30px 10px 30px; 
-
+	border-bottom:1px dashed #FCBB36;
 	transition:0.4s ease; 
 	-webkit-transition:0.4s ease;
 	-moz-transition:0.4s ease;
