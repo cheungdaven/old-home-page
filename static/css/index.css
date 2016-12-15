@@ -60,7 +60,7 @@ nav{
 }
 .post-area{
 	
-	background-color:#EDEDED;
+	background-color:#EEEEEE;
 }
 .post-list-header{
 	padding: 15px 30px;
@@ -95,14 +95,14 @@ nav{
 .categories-list-header {
 	display: block;
 	padding: 12px 15px;
-	border-bottom: 1px solid #EDEDED;
+	border-bottom: 1px solid #EEEEEE;
 	font-size: 16px;
 	font-weight: bold;
 }
 .categories-list-item{
 	display: block;
 	padding:8px 15px; 
-	border-bottom:1px solid #EDEDED; 
+	border-bottom:1px solid #EEEEEE; 
 }
 .categories-list-item:last-of-type{
 	border-bottom:none; 
@@ -114,7 +114,7 @@ nav{
 .categories-list-item .my-badge{
 	font-size: 12px;
 	font-weight: bold;
-	color: #fff;
+	color: #F39121;
 	background-color: #EDEDED;
 	padding: 0 7px 1px 7px;
 	border-radius: 9px;
