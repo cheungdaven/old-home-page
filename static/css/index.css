@@ -66,6 +66,7 @@ nav{
 	padding: 15px 30px;
 	font-size: 30px;
 	font-weight: bold;
+	border-bottom:1px solid  #FCBB36;
 }
 .post-list-item{
 	display: block;
