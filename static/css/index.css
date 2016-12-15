@@ -115,7 +115,7 @@ nav{
 	font-size: 12px;
 	font-weight: bold;
 	color: #fff;
-	background-color: #999;
+	background-color: #EDEDED;
 	padding: 0 7px 1px 7px;
 	border-radius: 9px;
 	float: right;
@@ -147,17 +147,6 @@ nav{
 	left: 9%;
 	bottom: 2%;
 	background: transparent;
-	-webkit-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-	-moz-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-	-o-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-	box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-
-	/* 向左倾斜12度，再旋转4度 */
-	-webkit-transform:skew(-11deg) rotate(-4deg);
-	-moz-transform:skew(-11deg) rotate(-4deg);
-	-o-transform:skew(-11deg) rotate(-4deg);
-	-ms-transform:skew(-11deg) rotate(-4deg);
-	transform:skew(-11deg) rotate(-4deg);
 }
 .shadow-corner-curl:after{
 	content:"";
@@ -168,17 +157,6 @@ nav{
 	right: 9%;
 	bottom: 2%;
 	background: transparent;
-	-webkit-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-	-moz-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-	-o-box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-	box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-
-	/* 向左倾斜12度，再旋转4度 */
-	-webkit-transform:skew(11deg) rotate(4deg);
-	-moz-transform:skew(11deg) rotate(4deg);
-	-o-transform:skew(11deg) rotate(4deg);
-	-ms-transform:skew(11deg) rotate(4deg);
-	transform:skew(11deg) rotate(4deg);
 }
 
 /* footer */
