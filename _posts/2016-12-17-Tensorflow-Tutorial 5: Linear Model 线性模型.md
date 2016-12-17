@@ -242,16 +242,29 @@ if __name__ == "__main__":
 {% endhighlight %}
 
 <p>运行结果：</p>
-> accuracy: 0.825686
-accuracy/baseline_label_mean: 0.236226
-accuracy/threshold_0.500000_mean: 0.825686
-auc: 0.820967
-global_step: 202
-labels/actual_label_mean: 0.236226
-labels/prediction_mean: 0.199659
-loss: 0.443123
-precision/positive_threshold_0.500000_mean: 0.766385
-recall/positive_threshold_0.500000_mean: 0.377015
+* accuracy: 0.825686
+* accuracy/baseline_label_mean: 0.236226
+* accuracy/threshold_0.500000_mean: 0.825686
+* auc: 0.820967
+* global_step: 202
+* labels/actual_label_mean: 0.236226
+* labels/prediction_mean: 0.199659
+* loss: 0.443123
+* precision/positive_threshold_0.500000_mean: 0.766385
+* recall/positive_threshold_0.500000_mean: 0.377015
+
+<p>可以将model_type切换为deep,wide,deep_n_wide，查看不同的输出结果！</p>
+<p>另外，先将model_type换成wide, 为了防止线性模型的过拟合，可以在LinearClassifier中加上一个optimizer的参数，如下：</p>
+{% highlight python %}
+m = tf.contrib.learn.LinearClassifier(feature_columns=[
+  gender, native_country, education, occupation, workclass, marital_status, race,
+  age_buckets, education_x_occupation, age_buckets_x_education_x_occupation],
+  optimizer=tf.train.FtrlOptimizer(
+    learning_rate=0.1,
+    l1_regularization_strength=1.0,
+    l2_regularization_strength=1.0),
+  model_dir=model_dir)
+{% endhighlight %}
 ## reference
 1. https://archive.ics.uci.edu/ml/datasets/Census+Income
 2. https://www.tensorflow.org/tutorials/wide/
