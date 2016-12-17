@@ -56,6 +56,14 @@ results = e.evaluate(input_fn=input_fn_test, steps=1)
 for key in sorted(results):
     print "%s: %s" % (key, results[key])
 {% endhighlight %}
+
+## Wide and deep learning
+<p>最近刚看了这篇论文，打算专门写一章来详细讲解，这个训练模型的出现是为了结合memorization和generalization。下面推荐几篇文章:</p>
+[research blog](https://research.googleblog.com/2016/06/wide-deep-learning-better-together-with.html)
+[Wide & Deep Learning for Recommender Systems](https://arxiv.org/abs/1606.07792)
+<p>模型结构如下：</p>
+![wide and deep](https://1.bp.blogspot.com/-Dw1mB9am1l8/V3MgtOzp3uI/AAAAAAAABGs/mP-3nZQCjWwdk6qCa5WraSpK8A7rSPj3ACLcB/s1600/image04.png)
+
 ## 数据描述
 <p>下面我们用具体的示例来演示如何使用线性模型：通过统计数据，从一个人的年龄、性别、教育背景、职业来判断这个人的年收入是否超过50000元，如果超过就为1，否则输出0.下面是我从官网截取的数据描述[数据源](https://archive.ics.uci.edu/ml/datasets/Census+Income)：</p>
 * Listing of attributes: >50K, <=50K. 
