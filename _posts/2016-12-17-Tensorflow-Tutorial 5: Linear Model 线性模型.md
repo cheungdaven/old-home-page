@@ -38,8 +38,26 @@ sport_x_city = tf.contrib.layers.crossed_column(
 > age_buckets = tf.contrib.layers.bucketized_column(age, boundaries=[18, 25, 30, 35, 40, 45, 50, 55, 60, 65])
 
 ## tf.contrib.learn.LinearClassifier和LinearRegressor 
-<p>下面我们用具体的示例来演示如何使用线性模型：通过统计数据，从一个人的年龄、性别、教育背景、职业来判断这个人的年收入是否超过50000元，如果超过就为1，否则输出0.下面是我从官网截取的数据描述：</p>
-Attribute Information: [数据源](https://archive.ics.uci.edu/ml/datasets/Census+Income)
+<p>这两个一个用于分类，一个用于回归，使用步骤如下</p>
+* 创建对象实例，在构造函数中传入featureColumns
+* 用fit训练模型
+* 用evaluate评估
+<p>下面是一段示例代码：</p>
+{% highlight python %}
+e = tf.contrib.learn.LinearClassifier(feature_columns=[
+  native_country, education, occupation, workclass, marital_status,
+  race, age_buckets, education_x_occupation, age_buckets_x_race_x_occupation],
+  model_dir=YOUR_MODEL_DIRECTORY)
+e.fit(input_fn=input_fn_train, steps=200)
+# Evaluate for one step (one pass through the test data).
+results = e.evaluate(input_fn=input_fn_test, steps=1)
+
+# Print the stats for the evaluation.
+for key in sorted(results):
+    print "%s: %s" % (key, results[key])
+{% endhighlight %}
+## 数据描述
+<p>下面我们用具体的示例来演示如何使用线性模型：通过统计数据，从一个人的年龄、性别、教育背景、职业来判断这个人的年收入是否超过50000元，如果超过就为1，否则输出0.下面是我从官网截取的数据描述[数据源](https://archive.ics.uci.edu/ml/datasets/Census+Income)：</p>
 * Listing of attributes: >50K, <=50K. 
 * age: continuous. 
 * workclass: Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked. 
