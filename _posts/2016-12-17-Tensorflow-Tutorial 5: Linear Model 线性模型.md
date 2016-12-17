@@ -17,12 +17,29 @@ categories: DeepLearning
 ## tf.learn关于线性模型的一些API   
 * FeatureColumn
 * sparse_column 用于解决类别特征的稀疏问题，对于类别型的特征，一般使用的One hot方法，会导致矩阵稀疏的问题。
+{% highlight python %}
+eye_color = tf.contrib.layers.sparse_column_with_keys(
+  column_name="eye_color", keys=["blue", "brown", "green"])
+  education = tf.contrib.layers.sparse_column_with_hash_bucket(\
+    "education", hash_bucket_size=1000)#不知道所有的可能值的时候用这个接口
+{% endhighlight %}
 * Feature Crosses 可以用来合并不同的特征
+{% highlight python %}
+sport = tf.contrib.layers.sparse_column_with_hash_bucket(\
+    "sport", hash_bucket_size=1000)
+city = tf.contrib.layers.sparse_column_with_hash_bucket(\
+    "city", hash_bucket_size=1000)
+sport_x_city = tf.contrib.layers.crossed_column(
+    [sport, city], hash_bucket_size=int(1e4))
+{% endhighlight %}
 * Continuous columns 用于连续的变量特征
+> age = tf.contrib.layers.real_valued_column("age")
 * Bucketization 将连续的变量变成类别标签
+> age_buckets = tf.contrib.layers.bucketized_column(age, boundaries=[18, 25, 30, 35, 40, 45, 50, 55, 60, 65])
+
 ## tf.contrib.learn.LinearClassifier和LinearRegressor 
 <p>下面我们用具体的示例来演示如何使用线性模型：通过统计数据，从一个人的年龄、性别、教育背景、职业来判断这个人的年收入是否超过50000元，如果超过就为1，否则输出0.下面是我从官网截取的数据描述：</p>
-> Attribute Information: [数据源](https://archive.ics.uci.edu/ml/datasets/Census+Income)
+Attribute Information: [数据源](https://archive.ics.uci.edu/ml/datasets/Census+Income)
 * Listing of attributes: >50K, <=50K. 
 * age: continuous. 
 * workclass: Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked. 
