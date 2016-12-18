@@ -15,6 +15,8 @@ permalink: /about/
 
 > Currently, his scientific research focusses upon Recommendation System, Deep Learning, and Internet of Things. 
 
+## Curriculum vitae
+[Curriculum vitae Shuai Zhang.pdf](http://shuaizhang.tech/file/Curriculum%20vitae%20Shuai%20Zhang.pdf)
 ## Contact
 * [Homepage](http://www.cse.unsw.edu.au/~z5122282/)
 * cheungshuai@outlook.com
