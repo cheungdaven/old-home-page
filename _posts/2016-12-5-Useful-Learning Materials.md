@@ -23,6 +23,9 @@ categories: LearningMaterials
 * [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/optimization-2/)
 * [Matrix Factorization: A Simple Tutorial and Implementation in Python](http://www.quuxlabs.com/blog/2010/09/matrix-factorization-a-simple-tutorial-and-implementation-in-python/)
 
+## OpenSource Projects
+* [Suprise](https://github.com/NicolasHug/Surprise/blob/master/surprise/prediction_algorithms/matrix_factorization.pyx)
+
 ## OpenCourses
 * [Probabilistic Graphical Models by Daphne Koller](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=ProbabilisticGraphicalModels)   
 * [Machine Learning by Columbia](http://www.cs.columbia.edu/~jebara/4771/index.html)
