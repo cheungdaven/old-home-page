@@ -28,3 +28,6 @@ permalink: /about/
 * [Liming Zhu](http://cgi.cse.unsw.edu.au/~limingz/home/){:target="_blank"}
 * [Shiyan Ou](http://im.nju.edu.cn/eng/facstaffdetail?name=Shiyan%20OU){:target="_blank"}
 
+## Interesting Lab
+* [Lambda] (http://lamda.nju.edu.cn/MainPage.ashx)
+* [LISA] (https://mila.umontreal.ca/en/)
