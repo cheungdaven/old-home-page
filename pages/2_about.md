@@ -30,4 +30,4 @@ permalink: /about/
 
 ## Interesting Lab
 * [Lambda](http://lamda.nju.edu.cn/MainPage.ashx)
-* [LISA](https://mila.umontreal.ca/en/)
+* [MILA](https://mila.umontreal.ca/en/)
