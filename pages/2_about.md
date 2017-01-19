@@ -29,5 +29,5 @@ permalink: /about/
 * [Shiyan Ou](http://im.nju.edu.cn/eng/facstaffdetail?name=Shiyan%20OU){:target="_blank"}
 
 ## Interesting Lab
-* [Lambda] (http://lamda.nju.edu.cn/MainPage.ashx)
-* [LISA] (https://mila.umontreal.ca/en/)
+* [Lambda](http://lamda.nju.edu.cn/MainPage.ashx)
+* [LISA](https://mila.umontreal.ca/en/)
