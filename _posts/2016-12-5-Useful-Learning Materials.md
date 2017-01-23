@@ -29,6 +29,7 @@ categories: LearningMaterials
 ## OpenCourses
 * [Probabilistic Graphical Models by Daphne Koller](http://openclassroom.stanford.edu/MainFolder/CoursePage.php?course=ProbabilisticGraphicalModels)   
 * [Machine Learning by Columbia](http://www.cs.columbia.edu/~jebara/4771/index.html)
+* [deep learning code](http://deeplearning.net/tutorial/code/)
 
 ## Useful links
 * [LAMBDA](http://lamda.nju.edu.cn/MainPage.ashx)
