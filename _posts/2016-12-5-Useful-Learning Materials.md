@@ -22,6 +22,7 @@ categories: LearningMaterials
 * [Calculus on Computational Graphs: Backpropagation](http://colah.github.io/posts/2015-08-Backprop/)
 * [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/optimization-2/)
 * [Matrix Factorization: A Simple Tutorial and Implementation in Python](http://www.quuxlabs.com/blog/2010/09/matrix-factorization-a-simple-tutorial-and-implementation-in-python/)
+* [mplicit Recommender Systems: Biased Matrix Factorization](http://activisiongamescience.github.io/2016/01/11/Implicit-Recommender-Systems-Biased-Matrix-Factorization/)
 
 ## OpenSource Projects
 * [Suprise](https://github.com/NicolasHug/Surprise/blob/master/surprise/prediction_algorithms/matrix_factorization.pyx)
