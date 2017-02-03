@@ -22,7 +22,8 @@ categories: LearningMaterials
 * [Calculus on Computational Graphs: Backpropagation](http://colah.github.io/posts/2015-08-Backprop/)
 * [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/optimization-2/)
 * [Matrix Factorization: A Simple Tutorial and Implementation in Python](http://www.quuxlabs.com/blog/2010/09/matrix-factorization-a-simple-tutorial-and-implementation-in-python/)
-* [mplicit Recommender Systems: Biased Matrix Factorization](http://activisiongamescience.github.io/2016/01/11/Implicit-Recommender-Systems-Biased-Matrix-Factorization/)
+* [implicit Recommender Systems: Biased Matrix Factorization](http://activisiongamescience.github.io/2016/01/11/Implicit-Recommender-Systems-Biased-Matrix-Factorization/)
+* [Simon Funk’s Blog](http://sifter.org/~simon/journal/20061211.html)
 
 ## Tutorial projects
 * [Installing XGBoost For Anaconda on Windows](https://www.ibm.com/developerworks/community/blogs/jfp/entry/Installing_XGBoost_For_Anaconda_on_Windows?lang=en)
