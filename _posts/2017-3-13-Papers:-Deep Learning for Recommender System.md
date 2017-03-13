@@ -32,7 +32,7 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [24. Keynote: Deep learning for audio-based music recommendation, DLRS 2016](http://dl.acm.org/citation.cfm?id=2991128)
 * [25. Hybrid Collaborative Filtering with Neural Networks](https://hal.inria.fr/hal-01281794v1/document)
 * [26. A Hybrid Collaborative Filtering Model with Deep Structure for Recommender Systems, AAAI 2017](http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14676)
-
+* [27. Automatic Recommendation Technology for Learning Resources with Convolutional Neural Network](http://ieeexplore.ieee.org/abstract/document/7685589/)
 
 ## References
 1. https://amundtveit.com/2016/11/20/recommender-systems-with-deep-learning/
