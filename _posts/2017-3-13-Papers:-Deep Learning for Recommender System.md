@@ -3,7 +3,7 @@ layout: post
 comments: true
 categories: RecommenderSystem
 ---
-## Papers: Deep Learning for Recommender System
+## Papers
 In this post, I collected some papers on Recommender System which utilize Deep learning techniques to improve the performance of traditional recommender system models. Thanks to [Amund Tveit](https://amundtveit.com/2016/11/20/recommender-systems-with-deep-learning/), who have done lots of works on paper collecting. This paper might include some new published papers which Amund Tveit doesn't mention.
 
 * [1. Collaborative Deep Learning for Recommender Systems, KDD 2015](https://arxiv.org/pdf/1409.2944.pdf)
