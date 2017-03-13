@@ -33,6 +33,7 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [25. Hybrid Collaborative Filtering with Neural Networks](https://hal.inria.fr/hal-01281794v1/document)
 * [26. A Hybrid Collaborative Filtering Model with Deep Structure for Recommender Systems, AAAI 2017](http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14676)
 * [27. Automatic Recommendation Technology for Learning Resources with Convolutional Neural Network](http://ieeexplore.ieee.org/abstract/document/7685589/)
+* [28. On Deep Learning for Trust-Aware Recommendations in Social Networks](http://ieeexplore.ieee.org/abstract/document/7414528/)
 
 ## References
 1. https://amundtveit.com/2016/11/20/recommender-systems-with-deep-learning/
