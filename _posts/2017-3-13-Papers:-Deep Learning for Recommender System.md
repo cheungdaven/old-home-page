@@ -18,7 +18,7 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [Collaborative recurrent autoencoder: recommend while learning to fill in the blanks,NIPS 2016](http://www.wanghao.in/paper/NIPS16_CRAE.pdf)
 * [Relational stacked denoising autoencoder for tag recommendation, AAA1 2015](http://www.wanghao.in/paper/AAAI15_RSDAE.pdf)
 * [Recurrent Recommender Networks,WSDM 2017](http://alexbeutel.com/papers/rrn_wsdm2017.pdf)
-* []()
+* [Deep Neural Networks for YouTube Recommendations, RecSys 2016](http://dl.acm.org/citation.cfm?id=2959190)
 * []()
 * []()
 * []()
