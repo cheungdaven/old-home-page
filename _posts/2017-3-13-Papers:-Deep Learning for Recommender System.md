@@ -38,6 +38,7 @@ In this post, I collected some papers on Recommender System which utilize Deep l
  2016](http://www.sciencedirect.com/science/article/pii/S0925231216301151)
 * [30. The Deep Journey from Content to Collaborative Filtering](https://arxiv.org/ftp/arxiv/papers/1611/1611.00384.pdf)
 * [31. Towards Bayesian Deep Learning: A Framework and Some Existing Methods](https://arxiv.org/abs/1608.06884)
+* [32. Quote Recommendation in Dialogue using Deep Neural Network](http://dl.acm.org/citation.cfm?id=2914734)
 
 ## References
 1. https://amundtveit.com/2016/11/20/recommender-systems-with-deep-learning/
