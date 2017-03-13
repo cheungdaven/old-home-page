@@ -31,6 +31,7 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [Convolutional Matrix Factorization for Document Context-Aware Recommendation, RecSys 2016](http://dl.acm.org/citation.cfm?id=2959165)
 * [Keynote: Deep learning for audio-based music recommendation, DLRS 2016](http://dl.acm.org/citation.cfm?id=2991128)
 * [Hybrid Collaborative Filtering with Neural Networks](https://hal.inria.fr/hal-01281794v1/document)
+* [A Hybrid Collaborative Filtering Model with Deep Structure for Recommender Systems, AAAI 2017](http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14676)
 
 
 ## References
