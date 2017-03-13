@@ -23,14 +23,14 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [Autoencoder-Based Collaborative Filtering, ICONIP 2014](https://link.springer.com/chapter/10.1007/978-3-319-12643-2_35)
 * [Collaborative Denoising Auto-Encoders for Top-N Recommender Systems, WSDM 2016](http://dl.acm.org/citation.cfm?id=2835837)
 * [Collaborative Filtering with Stacked Denoising AutoEncoders and Sparse Inputs, NIPS 2015 workshop](https://hal.inria.fr/hal-01256422/)
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
+* [Collaborative Knowledge Base Embedding for Recommender Systems, KDD 2016](http://dl.acm.org/citation.cfm?id=2939673)
+* [Collaborative Filtering and Deep Learning Based Hybrid Recommendation for Cold Start Problem](http://ieeexplore.ieee.org/abstract/document/7588947/authors)
+* [Latent Context-Aware Recommender Systems, RecSys 2015](http://dl.acm.org/citation.cfm?id=2796546)
+* [Learning Distributed Representations from Reviews for Collaborative Filtering, RecSys 2015](http://dl.acm.org/citation.cfm?id=2800192)
+* [Ask the GRU: Multi-task Learning for Deep Text Recommendations, RecSys 2016](http://dl.acm.org/citation.cfm?id=2959180)
+* [Convolutional Matrix Factorization for Document Context-Aware Recommendation, RecSys 2016](http://dl.acm.org/citation.cfm?id=2959165)
+* [Keynote: Deep learning for audio-based music recommendation, DLRS 2016](http://dl.acm.org/citation.cfm?id=2991128)
+* [Hybrid Collaborative Filtering with Neural Networks](https://hal.inria.fr/hal-01281794v1/document)
 
 
 ## References
