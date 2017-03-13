@@ -36,3 +36,4 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 
 ## References
 1. https://amundtveit.com/2016/11/20/recommender-systems-with-deep-learning/
+2. http://dlrs-workshop.org/
