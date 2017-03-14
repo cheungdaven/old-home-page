@@ -50,7 +50,7 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [41. Neural Autoregressive Collaborative Filtering for Implicit Feedback](http://dl.acm.org/citation.cfm?id=2988453)
 * [42. RecSys'16 Workshop on Deep Learning for Recommender Systems (DLRS)](http://dl.acm.org/citation.cfm?id=2959202)
 
-## Repost
+## Reposts
 * [Recommending music on Spotify with deep learning](http://benanne.github.io/2014/08/05/spotify-cnns.html)
 * [Recurrent Neural Networks for Collaborative Filtering](https://erikbern.com/2014/06/28/recurrent-neural-networks-for-collaborative-filtering/)
 * [The WellDressed Recommendation Engine](https://deeplearning4j.org/welldressed-recommendation-engine.html)
