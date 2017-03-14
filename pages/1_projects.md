@@ -20,5 +20,5 @@ stay tuned...
 1. [Introduction to Convolutional Neural Network](https://www.slideshare.net/ShuaiZhang33/lg-cnn20170213)
 2. [Introduction to Xgboost](https://www.slideshare.net/ShuaiZhang33/rg-xgboost20170306)
 
-# Post on Media
+# Posts on Media
 1. [Introduction to Collaborative Deep Learning (中文)](http://mp.weixin.qq.com/s/AqgxnfR4h1FBRmmEe6uPqQ)
