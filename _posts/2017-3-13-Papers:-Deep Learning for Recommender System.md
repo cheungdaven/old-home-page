@@ -39,6 +39,22 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [30. The Deep Journey from Content to Collaborative Filtering](https://arxiv.org/ftp/arxiv/papers/1611/1611.00384.pdf)
 * [31. Towards Bayesian Deep Learning: A Framework and Some Existing Methods](https://arxiv.org/abs/1608.06884)
 * [32. Quote Recommendation in Dialogue using Deep Neural Network](http://dl.acm.org/citation.cfm?id=2914734)
+* [33. TEMPORAL POOLING AND MULTISCALE LEARNING FOR AUTOMATIC ANNOTATION AND RANKING OF MUSIC AUDIO](https://pdfs.semanticscholar.org/d681/dd5227515c14e7feabad727642a1201b5a3c.pdf)
+* [34. Session-based Recommendations with Recurrent Neural Networks](https://arxiv.org/abs/1511.06939)
+* [35. The Recommender Problem Revisited](http://www.kdd.org/kdd2014/tutorials/KDD%20-%20The%20Recommender%20Problem%20Revisited.pdf)
+* [36. A Neural autoregressive approach to collaborative filtering](https://arxiv.org/abs/1605.09477)
+* [37. Personal recommendation using deep recurrent neural networks in NetEase](http://ieeexplore.ieee.org/document/7498326/)
+* [38. A non-IID Framework for Collaborative Filtering with Restricted Boltzmann Machines](http://www.jmlr.org/proceedings/papers/v28/georgiev13.html)
+* [39. Deep Matrix Factorization forRecommendation](https://esc.fnwi.uva.nl/thesis/centraal/files/f315001319.pdf)
+* [40. Collaborative Filtering with User-Item Co-Autoregressive Models](https://arxiv.org/abs/1612.07146)
+* [41. Neural Autoregressive Collaborative Filtering for Implicit Feedback](http://dl.acm.org/citation.cfm?id=2988453)
+* [42. RecSys'16 Workshop on Deep Learning for Recommender Systems (DLRS)](http://dl.acm.org/citation.cfm?id=2959202)
+
+## Repost
+* [Recommending music on Spotify with deep learning](http://benanne.github.io/2014/08/05/spotify-cnns.html)
+* [Recurrent Neural Networks for Collaborative Filtering](https://erikbern.com/2014/06/28/recurrent-neural-networks-for-collaborative-filtering/)
+* [The WellDressed Recommendation Engine](https://deeplearning4j.org/welldressed-recommendation-engine.html)
+
 
 ## References
 1. https://amundtveit.com/2016/11/20/recommender-systems-with-deep-learning/
