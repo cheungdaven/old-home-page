@@ -5,12 +5,16 @@ categories: RecommenderSystem
 ---
 In this post, I will present some benchmark datasets for recommender system, please note that I will only give the links of those datasets. Courtesy of [entaroadun](https://gist.github.com/entaroadun/1653794).
 
+**Amazon Product Data**:
+* *Amazon product data* http://jmcauley.ucsd.edu/data/amazon/links.html
 
 **Movies Recommendation**:
 
 * *MovieLens* - Movie Recommendation Data Sets http://www.grouplens.org/node/73
 * *Yahoo!* - Movie, Music, and Images Ratings Data Sets http://webscope.sandbox.yahoo.com/catalog.php?datatype=r
 * *Cornell University* - Movie-review data for use in sentiment-analysis experiments http://www.cs.cornell.edu/people/pabo/movie-review-data/
+* *Netflix Prize Dataset* http://academictorrents.com/details/9b13183dc4d60676b773c9e2cd6de5e5542cee9a
+* *MovieTweetings* - https://github.com/sidooms/MovieTweetings
 
 **Joke Recommendation**:
 * *Jester* - Movie Ratings Data Sets (Collaborative Filtering Dataset) http://www.ieor.berkeley.edu/~goldberg/jester-data/
