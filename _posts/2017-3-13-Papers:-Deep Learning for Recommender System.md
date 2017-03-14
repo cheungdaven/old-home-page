@@ -49,6 +49,7 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [40. Collaborative Filtering with User-Item Co-Autoregressive Models](https://arxiv.org/abs/1612.07146)
 * [41. Neural Autoregressive Collaborative Filtering for Implicit Feedback](http://dl.acm.org/citation.cfm?id=2988453)
 * [42. RecSys'16 Workshop on Deep Learning for Recommender Systems (DLRS)](http://dl.acm.org/citation.cfm?id=2959202)
+* [43. Neural Semantic Personalized Ranking for item cold-start recommendation](https://link.springer.com/article/10.1007/s10791-017-9295-9)
 
 ## Reposts
 * [Recommending music on Spotify with deep learning](http://benanne.github.io/2014/08/05/spotify-cnns.html)
