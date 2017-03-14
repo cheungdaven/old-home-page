@@ -17,6 +17,7 @@ permalink: /about/
 
 ## Curriculum vitae
 * [Curriculum vitae Shuai Zhang.pdf](http://shuaizhang.tech/file/Curriculum%20vitae%20Shuai%20Zhang.pdf)
+* [Google Scholar Profile](https://scholar.google.com.au/citations?user=PPjdxlcAAAAJ&hl=en)
 
 ## Contact
 * [Homepage](http://www.cse.unsw.edu.au/~z5122282/)
