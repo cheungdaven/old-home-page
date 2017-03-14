@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Projects
+title: Miscellaneous
 comments: true
-permalink: /projects/
+permalink: /miscellaneous/
 ---
 
 * content
