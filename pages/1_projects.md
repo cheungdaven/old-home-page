@@ -8,10 +8,6 @@ permalink: /projects/
 * content
 {:toc}
 
-# All my projects
-No projects.
-stay tuned...
-
 
 # Papers Collection
 1. [Papers: Deep learning for recommender system](http://shuaizhang.tech/2017/03/13/Papers-Deep-Learning-for-Recommender-System/)
@@ -22,3 +18,8 @@ stay tuned...
 
 # Posts on Media
 1. [Introduction to Collaborative Deep Learning (中文)](http://mp.weixin.qq.com/s/AqgxnfR4h1FBRmmEe6uPqQ)
+
+
+# Projects
+No projects.
+stay tuned...
