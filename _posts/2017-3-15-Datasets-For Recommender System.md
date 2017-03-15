@@ -62,3 +62,7 @@ In this post, I will present some benchmark datasets for recommender system, ple
 **Scholarly Paper Recommendation**:
 
 * *National University of Singapore* - Scholarly Paper Recommendation [link](http://www.comp.nus.edu.sg/~sugiyama/SchPaperRecData.html)
+
+
+## Reports
+* [Data Sets and News Recommendation](http://ceur-ws.org/Vol-1181/nra2014_paper_01.pdf)
