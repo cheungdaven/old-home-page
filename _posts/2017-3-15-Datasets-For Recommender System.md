@@ -8,6 +8,12 @@ In this post, I will present some benchmark datasets for recommender system, ple
 **Amazon Product Data**:
 * *Amazon product data* http://jmcauley.ucsd.edu/data/amazon/links.html
 
+**Mobile Recommendation**:
+* *Data Set for Mobile App Retrieval* https://sites.google.com/site/daehpark/Resources/data-set-for-mobile-app-retrieval
+* *frappe* http://baltrunas.info/research-menu/frappe
+* *Ali_Mobile_Rec* [link1](https://tianchi.aliyun.com/datalab/dataSet.htm?id=4) ; [link2](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100068.5678.1.qppLC8&raceId=1)
+* *Mobile App User Dataset* https://soolinglim.wordpress.com/datasets/
+
 **Movies Recommendation**:
 
 * *MovieLens* - Movie Recommendation Data Sets http://www.grouplens.org/node/73
