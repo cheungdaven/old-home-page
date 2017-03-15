@@ -6,59 +6,59 @@ categories: RecommenderSystem
 In this post, I will present some benchmark datasets for recommender system, please note that I will only give the links of those datasets. Courtesy of [entaroadun](https://gist.github.com/entaroadun/1653794).
 
 **Amazon Product Data**:
-* *Amazon product data* http://jmcauley.ucsd.edu/data/amazon/links.html
+* *Amazon product data* [link](http://jmcauley.ucsd.edu/data/amazon/links.html)
 
 **Mobile Recommendation**:
-* *Data Set for Mobile App Retrieval* https://sites.google.com/site/daehpark/Resources/data-set-for-mobile-app-retrieval
-* *frappe* http://baltrunas.info/research-menu/frappe
+* *Data Set for Mobile App Retrieval* [link](https://sites.google.com/site/daehpark/Resources/data-set-for-mobile-app-retrieval)
+* *frappe* [link](http://baltrunas.info/research-menu/frappe)
 * *Ali_Mobile_Rec* [link1](https://tianchi.aliyun.com/datalab/dataSet.htm?id=4) ; [link2](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100068.5678.1.qppLC8&raceId=1)
-* *Mobile App User Dataset* https://soolinglim.wordpress.com/datasets/
+* *Mobile App User Dataset* [link](https://soolinglim.wordpress.com/datasets/)
 
 **Movies Recommendation**:
 
-* *MovieLens* - Movie Recommendation Data Sets http://www.grouplens.org/node/73
-* *Yahoo!* - Movie, Music, and Images Ratings Data Sets http://webscope.sandbox.yahoo.com/catalog.php?datatype=r
-* *Cornell University* - Movie-review data for use in sentiment-analysis experiments http://www.cs.cornell.edu/people/pabo/movie-review-data/
-* *Netflix Prize Dataset* http://academictorrents.com/details/9b13183dc4d60676b773c9e2cd6de5e5542cee9a
-* *MovieTweetings* - https://github.com/sidooms/MovieTweetings
+* *MovieLens* - Movie Recommendation Data Sets [link](http://www.grouplens.org/node/73)
+* *Yahoo!* - Movie, Music, and Images Ratings Data Sets [link](http://webscope.sandbox.yahoo.com/catalog.php?datatype=r)
+* *Cornell University* - Movie-review data for use in sentiment-analysis experiments [link](http://www.cs.cornell.edu/people/pabo/movie-review-data/)
+* *Netflix Prize Dataset* [link](http://academictorrents.com/details/9b13183dc4d60676b773c9e2cd6de5e5542cee9a)
+* *MovieTweetings* - [link](https://github.com/sidooms/MovieTweetings)
 
 **Joke Recommendation**:
-* *Jester* - Movie Ratings Data Sets (Collaborative Filtering Dataset) http://www.ieor.berkeley.edu/~goldberg/jester-data/
+* *Jester* - Movie Ratings Data Sets (Collaborative Filtering Dataset) [link](http://www.ieor.berkeley.edu/~goldberg/jester-data/)
 
 **Music Recommendation**:
 
-* *Last.fm* - Music Recommendation Data Sets http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/index.html
-* *Yahoo!* - Movie, Music, and Images Ratings Data Sets http://webscope.sandbox.yahoo.com/catalog.php?datatype=r
-* *Audioscrobbler* - Music Recommendation Data Sets http://www-etud.iro.umontreal.ca/~bergstrj/audioscrobbler_data.html
-* *Amazon* - Audio CD recommendations http://131.193.40.52/data/
+* *Last.fm* - Music Recommendation Data Sets [link](http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/index.html)
+* *Yahoo!* - Movie, Music, and Images Ratings Data Sets [link](http://webscope.sandbox.yahoo.com/catalog.php?datatype=r)
+* *Audioscrobbler* - Music Recommendation Data Sets [link](http://www-etud.iro.umontreal.ca/~bergstrj/audioscrobbler_data.html)
+* *Amazon* - Audio CD recommendations [link](http://131.193.40.52/data/)
 
 
 **Books Recommendation**:
 
-* *Institut für Informatik, Universität Freiburg* - Book Ratings Data Sets http://www.informatik.uni-freiburg.de/~cziegler/BX/
+* *Institut für Informatik, Universität Freiburg* - Book Ratings Data Sets [link](http://www.informatik.uni-freiburg.de/~cziegler/BX/)
 
 
 **Food Recommendation**:
 
-* *Chicago Entree* - Food Ratings Data Sets http://archive.ics.uci.edu/ml/datasets/Entree+Chicago+Recommendation+Data
+* *Chicago Entree* - Food Ratings Data Sets [link](http://archive.ics.uci.edu/ml/datasets/Entree+Chicago+Recommendation+Data)
 
 
 **Merchandise Recommendation**:
 
-* *Amazon* - Product Recommendation Data Sets http://131.193.40.52/data/
+* *Amazon* - Product Recommendation Data Sets [link](http://131.193.40.52/data/)
 
 
 **Healthcare Recommendation**:
 
-* *Nursing Home* - Provider Ratings Data Set http://data.medicare.gov/dataset/Nursing-Home-Compare-Provider-Ratings/mufm-vy8d
-* *Hospital Ratings* - Survey of Patients Hospital Experiences http://data.medicare.gov/dataset/Survey-of-Patients-Hospital-Experiences-HCAHPS-/rj76-22dk
+* *Nursing Home* - Provider Ratings Data Set [link](http://data.medicare.gov/dataset/Nursing-Home-Compare-Provider-Ratings/mufm-vy8d)
+* *Hospital Ratings* - Survey of Patients Hospital Experiences [link](http://data.medicare.gov/dataset/Survey-of-Patients-Hospital-Experiences-HCAHPS-/rj76-22dk)
 
 
 **Dating Recommendation**:
 
-* *www.libimseti.cz* - Dating website recommendation (collaborative filtering) http://www.occamslab.com/petricek/data/
+* *www.libimseti.cz* - Dating website recommendation (collaborative filtering) [link](http://www.occamslab.com/petricek/data/)
 
 
 **Scholarly Paper Recommendation**:
 
-* *National University of Singapore* - Scholarly Paper Recommendation http://www.comp.nus.edu.sg/~sugiyama/SchPaperRecData.html
+* *National University of Singapore* - Scholarly Paper Recommendation [link](http://www.comp.nus.edu.sg/~sugiyama/SchPaperRecData.html)
