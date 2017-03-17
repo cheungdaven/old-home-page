@@ -45,13 +45,14 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [36. A Neural autoregressive approach to collaborative filtering](https://arxiv.org/abs/1605.09477)
 * [37. Personal recommendation using deep recurrent neural networks in NetEase](http://ieeexplore.ieee.org/document/7498326/)
 * [38. A non-IID Framework for Collaborative Filtering with Restricted Boltzmann Machines](http://www.jmlr.org/proceedings/papers/v28/georgiev13.html)
-* [39. Deep Matrix Factorization forRecommendation](https://esc.fnwi.uva.nl/thesis/centraal/files/f315001319.pdf)
+* [39. Deep Matrix Factorization for Recommendation](https://esc.fnwi.uva.nl/thesis/centraal/files/f315001319.pdf)
 * [40. Collaborative Filtering with User-Item Co-Autoregressive Models](https://arxiv.org/abs/1612.07146)
 * [41. Neural Autoregressive Collaborative Filtering for Implicit Feedback](http://dl.acm.org/citation.cfm?id=2988453)
 * [42. RecSys'16 Workshop on Deep Learning for Recommender Systems (DLRS)](http://dl.acm.org/citation.cfm?id=2959202)
 * [43. Neural Semantic Personalized Ranking for item cold-start recommendation](https://link.springer.com/article/10.1007/s10791-017-9295-9)
 * [44. Recurrent neural network based recommendation for time heterogeneous feedback](http://dl.acm.org/citation.cfm?id=2995100)
 * [45. Examples-Rules Guided Deep Neural Network for Makeup Recommendation, AAAI 2017](https://www.researchgate.net/profile/Taleb_Alashkar2/publication/309919310_Examples-Rules_Guided_Deep_Neural_Network_for_Makeup_Recommendation/links/588a540045851522127ff803/Examples-Rules-Guided-Deep-Neural-Network-for-Makeup-Recommendation.pdf)
+* [46. What Your Images Reveal: Exploiting Visual Contents for Point-of-Interest Recommendation](http://www.public.asu.edu/~swang187/publications/VPOI.pdf)
 
 ## Reports
 * [Recommending music on Spotify with deep learning](http://benanne.github.io/2014/08/05/spotify-cnns.html)
