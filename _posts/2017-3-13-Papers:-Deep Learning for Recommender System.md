@@ -51,6 +51,7 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [42. RecSys'16 Workshop on Deep Learning for Recommender Systems (DLRS)](http://dl.acm.org/citation.cfm?id=2959202)
 * [43. Neural Semantic Personalized Ranking for item cold-start recommendation](https://link.springer.com/article/10.1007/s10791-017-9295-9)
 * [44. Recurrent neural network based recommendation for time heterogeneous feedback](http://dl.acm.org/citation.cfm?id=2995100)
+* [45. Examples-Rules Guided Deep Neural Network for Makeup Recommendation, AAAI 2017](https://www.researchgate.net/profile/Taleb_Alashkar2/publication/309919310_Examples-Rules_Guided_Deep_Neural_Network_for_Makeup_Recommendation/links/588a540045851522127ff803/Examples-Rules-Guided-Deep-Neural-Network-for-Makeup-Recommendation.pdf)
 
 ## Reports
 * [Recommending music on Spotify with deep learning](http://benanne.github.io/2014/08/05/spotify-cnns.html)
