@@ -54,6 +54,7 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [45. Examples-Rules Guided Deep Neural Network for Makeup Recommendation, AAAI 2017](https://www.researchgate.net/profile/Taleb_Alashkar2/publication/309919310_Examples-Rules_Guided_Deep_Neural_Network_for_Makeup_Recommendation/links/588a540045851522127ff803/Examples-Rules-Guided-Deep-Neural-Network-for-Makeup-Recommendation.pdf)
 * [46. What Your Images Reveal: Exploiting Visual Contents for Point-of-Interest Recommendation, WWW 2017](http://www.public.asu.edu/~swang187/publications/VPOI.pdf)
 * [47. A hybrid recommendation system considering visual information for predicting favorite restaurants, WWW 2017](https://link.springer.com/article/10.1007/s11280-017-0437-1)
+* [48. Deep Learning Based Recommendation: A Survey](https://link.springer.com/chapter/10.1007/978-981-10-4154-9_52)
 
 ## Reports
 * [Recommending music on Spotify with deep learning](http://benanne.github.io/2014/08/05/spotify-cnns.html)
