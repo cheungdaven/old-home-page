@@ -16,8 +16,8 @@ Actually, this post is about mobile app recommendation.
 * [App Recommendation: A Contest between Satisfaction and Temptation](http://dl.acm.org/citation.cfm?id=2433446)
 * [Mobile app recommendations with security and privacy awareness](http://dl.acm.org/citation.cfm?id=2623705)
 * [Climbing the App Wall: Enabling Mobile App Discovery through Context-Aware Recommendations](http://dl.acm.org/citation.cfm?id=2398683)
-* []()
-* []()
+* [Version-sensitive mobile App recommendation](http://www.sciencedirect.com/science/article/pii/S0020025516318382)
+* [Structural Analysis of User Choices for Mobile App Recommendation, TKDD2016](http://dl.acm.org/citation.cfm?id=2983533)
 * []()
 
 ## Some related useful papers
