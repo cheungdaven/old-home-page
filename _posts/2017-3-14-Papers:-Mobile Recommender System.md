@@ -3,6 +3,7 @@ layout: post
 comments: true
 categories: RecommenderSystem
 ---
+Actually, this post is about mobile app recommendation.
 ## Papers
 
 * [Leveraging User Reviews to Improve Accuracy for Mobile App Retrieval, SIGIR 2015](http://dl.acm.org/citation.cfm?id=2767759)
@@ -18,3 +19,6 @@ categories: RecommenderSystem
 * []()
 * []()
 * []()
+
+## Some related useful papers
+* [Mobile App Classification with Enriched Contextual Information](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6585246)
