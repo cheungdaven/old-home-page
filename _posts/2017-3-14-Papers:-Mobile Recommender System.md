@@ -14,7 +14,7 @@ categories: RecommenderSystem
 * [Addressing Cold-Start in App Recommendation:Latent User Models Constructed from Twitter Followers](https://www.comp.nus.edu.sg/~kanmy/papers/fp093-lin.pdf)
 * [App Recommendation: A Contest between Satisfaction and Temptation](http://dl.acm.org/citation.cfm?id=2433446)
 * [Mobile app recommendations with security and privacy awareness](http://dl.acm.org/citation.cfm?id=2623705)
-* []()
+* [Climbing the App Wall: Enabling Mobile App Discovery through Context-Aware Recommendations](http://dl.acm.org/citation.cfm?id=2398683)
 * []()
 * []()
 * []()
