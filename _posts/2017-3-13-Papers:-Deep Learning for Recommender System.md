@@ -61,7 +61,7 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [Recommending music on Spotify with deep learning](http://benanne.github.io/2014/08/05/spotify-cnns.html)
 * [Recurrent Neural Networks for Collaborative Filtering](https://erikbern.com/2014/06/28/recurrent-neural-networks-for-collaborative-filtering/)
 * [The WellDressed Recommendation Engine](https://deeplearning4j.org/welldressed-recommendation-engine.html)
-
+* [Deep Learning Meets Recommendation Systems](https://blog.nycdatascience.com/student-works/deep-learning-meets-recommendation-systems/)
 
 ## References
 1. https://amundtveit.com/2016/11/20/recommender-systems-with-deep-learning/
