@@ -10,6 +10,7 @@ In this post, I will present some benchmark datasets for recommender system, ple
 
 **Amazon Product Data**:
 * *Amazon product data* [link](http://jmcauley.ucsd.edu/data/amazon/links.html)
+* *SNAP* [snap](https://snap.stanford.edu/data/web-Amazon.html)
 
 **Mobile Recommendation**:
 * *Data Set for Mobile App Retrieval* [link](https://sites.google.com/site/daehpark/Resources/data-set-for-mobile-app-retrieval)
