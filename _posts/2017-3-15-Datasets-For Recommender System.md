@@ -72,3 +72,4 @@ In this post, I will present some benchmark datasets for recommender system, ple
 * [Data Sets and News Recommendation](http://ceur-ws.org/Vol-1181/nra2014_paper_01.pdf)
 * [MobBlog](http://mobblog.cs.ucl.ac.uk/datasets/)
 * [Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets.html?sort=nameUp&view=list)
+* [List of datasets for machine learning research](https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research#Image_data)
