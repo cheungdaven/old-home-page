@@ -60,6 +60,7 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [51. CCCFNet: A Content-Boosted Collaborative Filtering Neural Network for Cross Domain Recommender Systems](http://dl.acm.org/citation.cfm?id=3054207)
 * [52. TransNets: Learning to Transform for Recommendation](https://arxiv.org/pdf/1704.02298.pdf)
 * [53. AutoSVD++: An Efficient Hybrid Collaborative Filtering Model via Contractive Auto-encoders](https://arxiv.org/abs/1704.00551)
+* [54. Joint Deep Modeling of Users and Items Using Reviews for Recommendation](https://arxiv.org/pdf/1701.04783.pdf)
 
 ## Reports
 * [Recommending music on Spotify with deep learning](http://benanne.github.io/2014/08/05/spotify-cnns.html)
