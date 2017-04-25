@@ -27,6 +27,8 @@ categories: LearningMaterials
 
 ## Tutorial projects
 * [Installing XGBoost For Anaconda on Windows](https://www.ibm.com/developerworks/community/blogs/jfp/entry/Installing_XGBoost_For_Anaconda_on_Windows?lang=en)
+* [Machine Learning Algorithm Recipes in scikit-learn](http://machinelearningmastery.com/get-your-hands-dirty-with-scikit-learn-now/)
+
 ## OpenSource Projects
 * [Suprise](https://github.com/NicolasHug/Surprise/blob/master/surprise/prediction_algorithms/matrix_factorization.pyx)
 
