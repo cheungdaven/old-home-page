@@ -73,6 +73,7 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [Recurrent Neural Networks for Collaborative Filtering](https://erikbern.com/2014/06/28/recurrent-neural-networks-for-collaborative-filtering/)
 * [The WellDressed Recommendation Engine](https://deeplearning4j.org/welldressed-recommendation-engine.html)
 * [Deep Learning Meets Recommendation Systems](https://blog.nycdatascience.com/student-works/deep-learning-meets-recommendation-systems/)
+* [ Recommendation with Deep Learning](http://www.cips-cl.org/static/CCL2016/tutorialpdf/T3A_%E7%A4%BE%E4%BC%9A%E8%AE%A1%E7%AE%97_part4.pdf)
 
 ## References
 1. https://amundtveit.com/2016/11/20/recommender-systems-with-deep-learning/
