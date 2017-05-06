@@ -67,6 +67,7 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [58. A Hybrid Recommender System Using Artificial Neural Networks](http://ac.els-cdn.com/S0957417417302968/1-s2.0-S0957417417302968-main.pdf?_tid=d4cfdb72-2ed7-11e7-bfab-00000aab0f02&acdnat=1493689198_d95e687ded3affd07e21fef7c2f31c29)
 * [59. Representation learning via Dual-Autoencoder for recommendation](http://www.sciencedirect.com/science/article/pii/S0893608017300655)
 * [60. Multi-Rate Deep Learning for Temporal Recommendation](http://sonyis.me/paperpdf/spr209-song_sigir16.pdf)
+* [61. Trust-aware Top-N Recommender Systems with Correlative Denoising Autoencoder](https://arxiv.org/pdf/1703.01760.pdf)
 
 ## Reports
 * [Recommending music on Spotify with deep learning](http://benanne.github.io/2014/08/05/spotify-cnns.html)
