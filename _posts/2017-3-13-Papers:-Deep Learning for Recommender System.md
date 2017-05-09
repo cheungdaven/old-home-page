@@ -88,6 +88,7 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [79. Using Mise-En-Scène Visual Features based on MPEG-7 and Deep Learning for Movie Recommendation](https://arxiv.org/abs/1704.06109)
 * [80. Towards latent context-aware recommendation systems](http://www.sciencedirect.com/science/article/pii/S0950705116300727)
 * [81. Comparative Deep Learning of Hybrid Representations for Image Recommendations](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lei_Comparative_Deep_Learning_CVPR_2016_paper.pdf)
+* [82. Social Embedding Image Distance Learning](http://media.cs.tsinghua.edu.cn/~multimedia/cuipeng/papers/MM14-Liu.pdf)
 
 ## Reports
 * [Recommending music on Spotify with deep learning](http://benanne.github.io/2014/08/05/spotify-cnns.html)
