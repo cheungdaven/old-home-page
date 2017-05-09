@@ -69,6 +69,9 @@ In this post, I collected some papers on Recommender System which utilize Deep l
 * [60. Multi-Rate Deep Learning for Temporal Recommendation](http://sonyis.me/paperpdf/spr209-song_sigir16.pdf)
 * [61. Trust-aware Top-N Recommender Systems with Correlative Denoising Autoencoder](https://arxiv.org/pdf/1703.01760.pdf)
 * [62. Joint Deep Modeling of Users and Items Using Reviews for Recommendation](https://arxiv.org/pdf/1701.04783.pdf)
+* [63. Neural Survival Recommender](http://delivery.acm.org/10.1145/3020000/3018719/p515-jing.pdf?ip=129.94.175.101&id=3018719&acc=ACTIVE%20SERVICE&key=65D80644F295BC0D%2EB811333C2AA88C82%2E0D82E261D1C203E9%2E4D4702B0C3E38B35&CFID=752944716&CFTOKEN=46656271&__acm__=1494291293_4dffbddb26114cb94c797b8584cc453a)
+* [64. Hashtag recommendation using attention-based convolutional neural network](http://dl.acm.org/citation.cfm?id=3060832.3061010)
+* [65. Representation Learning of Users and Items for Review Rating Prediction Using Attention-based Convolutional Neural Network](http://mlrec.org/2017/papers/paper8.pdf)
 
 ## Reports
 * [Recommending music on Spotify with deep learning](http://benanne.github.io/2014/08/05/spotify-cnns.html)
