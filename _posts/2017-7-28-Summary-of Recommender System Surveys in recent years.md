@@ -20,9 +20,6 @@ At first, I would like to promote the survey I finished on deep learning based r
 * A survey of recommender systems techniques, challenges and evaluation metrics, 2012
 * A survey of explanations in recommender systems, 2007
 * A literature review and classification of recommender systems research, 2012
-
-
-### Neigbourhood Recommender system 
 * A comprehensive survey of neighborhood-based recommendation methods, 2011
 
 ### Collaborative filtering 
@@ -61,6 +58,10 @@ At first, I would like to promote the survey I finished on deep learning based r
 * Cross-domain collaborative filtering: A brief survey, 2011
 * Cross-domain recommender systems: A survey of the state of the art, 2012
 * Cross Domain Recommender Systems: A Systematic Literature Review, 2017
+
+### POI recommender system 
+* A Survey of Point-of-Interest Recommendation in Location-Based Social Networks, 2015
+
 
 ### Others
 * Recommender system application developments: A survey, 2015
