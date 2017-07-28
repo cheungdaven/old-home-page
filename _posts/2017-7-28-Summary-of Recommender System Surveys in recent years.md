@@ -35,7 +35,6 @@ At first, I would like to promote the survey I finished on deep learning based r
 * A survey of collaborative recommendation and the robustness of model-based algorithms., 2008
 
 
-
 ### Content based recommender system
 * Content-based recommender systems: State of the art and trends, 2011
 * Content-based recommendation systems, 2007
@@ -55,6 +54,8 @@ At first, I would like to promote the survey I finished on deep learning based r
 * Time-aware recommender systems: a comprehensive survey and analysis of existing evaluation protocols, 2014
 * A survey on context-aware recommender systems based on computational intelligence techniques, 2015
 * Context-aware recommender systems, 2011
+* A systematic review of scholar context-aware recommender systems, 2014
+* Context-aware systems: A literature review and classification, 2008
 
 ### Cross domain recommender system 
 * Cross-domain collaborative filtering: A brief survey, 2011
@@ -79,4 +80,5 @@ At first, I would like to promote the survey I finished on deep learning based r
 * Trust-aware recommender systems, 2007
 * A connection-centric survey of recommender systems research, 2002
 * Application domain and functional classification of recommender systems--a survey, 2008
+* A literature review of recommender systems in the television domain, 2015
 
