@@ -19,6 +19,7 @@ At first, I would like to promote the survey I finished on deep learning based r
 * Evaluating collaborative filtering recommender systems, 2004
 * A survey of recommender systems techniques, challenges and evaluation metrics, 2012
 * A survey of explanations in recommender systems, 2007
+* A literature review and classification of recommender systems research, 2012
 
 
 ### Neigbourhood Recommender system 
@@ -41,6 +42,7 @@ At first, I would like to promote the survey I finished on deep learning based r
 
 ### Hybrid recommender system
 * Hybrid recommender systems: Survey and experiments, 2002
+* A hybrid recommender system for context-aware recommendations of mobile applications, 2007
 
 ### Deep learning based recommender system 
 * [Deep Learning based Recommender System: A Survey and New Perspectives](https://arxiv.org/abs/1707.07435), 2017
@@ -76,4 +78,5 @@ At first, I would like to promote the survey I finished on deep learning based r
 * A survey of job recommender systems, 2012
 * Trust-aware recommender systems, 2007
 * A connection-centric survey of recommender systems research, 2002
+* Application domain and functional classification of recommender systems--a survey, 2008
 
