@@ -112,3 +112,18 @@ If you have any suggestions, please feel free to contact me via cheungshuai@outl
 * Collaborative Deep Learning for Recommender Systems
 * Neural Factorization Machines for Sparse Predictive Analytics
 * Collaborative Filtering with Recurrent Neural Networks
+
+
+## New 
+* Tag-Aware Personalized Recommendation Using a Hybrid Deep Model, IJCAI 2017
+* A Deep Multimodal Approach for Cold-start Music Recommendation, DLRS 2017
+* Contextual Sequence Modeling for Recommendation with Recurrent Neural Networks, DLRS 2017
+* Comparing Neural and Attractiveness-based Visual Features for Artwork Recommendation, DLRS 2017
+* Auto-Encoding User Ratings via Knowledge Graphs in Recommendation Scenarios, DLRS 2017
+* Inter-Session Modeling for Session-Based Recommendation, DLRS 2017
+* Towards Recommender Systems for Police Photo Lineup, DLRS 2017
+* Specializing Joint Representations for the task of Product Recommendation, DLRS 2017
+* Recurrent Latent Variable Networks for Session-Based Recommendation, DLRS 2017
+* Music Playlist Continuation by Learning from Hand-Curated Examples and Song Features: Alleviating the Cold-Start Problem for Rare and Out-of-Set Songs, DLRS 2017
+
+
