@@ -127,5 +127,6 @@ If you have any suggestions, please feel free to contact me via cheungshuai@outl
 * Recurrent Latent Variable Networks for Session-Based Recommendation, DLRS 2017
 * Music Playlist Continuation by Learning from Hand-Curated Examples and Song Features: Alleviating the Cold-Start Problem for Rare and Out-of-Set Songs, DLRS 2017
 * Proceedings of the 2nd Workshop on Deep Learning for Recommender Systems
+* Location-aware personalized News Recommendation With deep semantic analysis
 
 
