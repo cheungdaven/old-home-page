@@ -128,5 +128,6 @@ If you have any suggestions, please feel free to contact me via cheungshuai@outl
 * Music Playlist Continuation by Learning from Hand-Curated Examples and Song Features: Alleviating the Cold-Start Problem for Rare and Out-of-Set Songs, DLRS 2017
 * Proceedings of the 2nd Workshop on Deep Learning for Recommender Systems
 * On Sampling Strategies for Neural Network-based Collaborative Filtering
+* 3D Convolutional Networks for Session-based Recommendation with Content Features
 
 
