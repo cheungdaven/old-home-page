@@ -129,5 +129,6 @@ If you have any suggestions, please feel free to contact me via cheungshuai@outl
 * Proceedings of the 2nd Workshop on Deep Learning for Recommender Systems
 * On Sampling Strategies for Neural Network-based Collaborative Filtering
 * 3D Convolutional Networks for Session-based Recommendation with Content Features
+* Deep Neural Networks for News Recommendations
 
 
