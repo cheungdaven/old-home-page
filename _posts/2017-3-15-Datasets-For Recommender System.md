@@ -67,6 +67,8 @@ In this post, I will present some benchmark datasets for recommender system, ple
 
 * *National University of Singapore* - Scholarly Paper Recommendation [link](http://www.comp.nus.edu.sg/~sugiyama/SchPaperRecData.html)
 
+**POI recommendation**:
+* *LBSN* - https://github.com/rahmanidashti/LBSNDatasets
 
 ## Reports
 * [Data Sets and News Recommendation](http://ceur-ws.org/Vol-1181/nra2014_paper_01.pdf)
